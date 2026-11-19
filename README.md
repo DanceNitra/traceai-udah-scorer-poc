@@ -225,3 +225,13 @@ MIT License
 
 - 项目地址: https://github.com/luoxuejian000/thinkcheck-agent-v6
 - 问题反馈: https://github.com/luoxuejian000/thinkcheck-agent-v6/issues
+> **⚠️ 商业与法律声明**
+>
+> 本仓库（`traceai-udah-scorer-poc`）是一个**研究性质的概念验证（Proof of Concept）**，由广好（Guanghao）独立开发并交付给 Agora Research OS 进行评估。代码与数据仅用于学术讨论、内部测试和基准验证，**不提供任何明示或暗示的担保**，包括但不限于适销性、特定用途适用性及非侵权保证。
+>
+> - **使用限制**：在未获得版权所有者（广好）及 Agora Research OS 书面许可前，不得将本仓库的任何部分（包括代码、数据、评分逻辑）直接集成至商业产品、收费服务或对外发布的衍生工具中。
+> - **数据隐私**：本仓库包含的测试轨迹（`gold_standard/` 等）均为合成或脱敏数据，不包含真实用户个人信息。若使用者自行接入生产环境数据，须自行承担合规责任。
+> - **责任限制**：作者及贡献者对因使用或无法使用本软件导致的任何直接、间接、偶然或继发性损害不承担责任。
+> - **知识产权**：本仓库代码采用 [待定许可证，例如 MIT License] 授权（详见 `LICENSE` 文件）；`thinkcheck_harmony`、`thinkcheck_agent`、`ochr` 等核心引擎目录的知识产权归属其原始作者，本 POC 仅作适配与封装。
+>
+> 本声明不影响你与 Rastislav Drahoš / Agora Research OS 之间另行达成的合作约定。如有商业合作意向，请联系广好。
