@@ -1,0 +1,211 @@
+{
+  "resourceSpans": [
+    {
+      "resource": {
+        "attributes": [
+          { "key": "service.name", "value": { "stringValue": "traceai-demo" } },
+          { "key": "session.id", "value": { "stringValue": "demo-drift" } }
+        ]
+      },
+      "scopeSpans": [
+        {
+          "scope": { "name": "traceai.gen_ai", "version": "0.1.0" },
+          "spans": [
+            {
+              "traceId": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "spanId": "1111111111111111",
+              "name": "chat",
+              "kind": 3,
+              "startTimeUnixNano": "1700000000000000000",
+              "endTimeUnixNano": "1700000001000000000",
+              "attributes": [
+                { "key": "gen_ai.operation.name", "value": { "stringValue": "chat" } },
+                { "key": "gen_ai.request.model", "value": { "stringValue": "demo-model" } },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"user\",\"parts\":[{\"type\":\"text\",\"content\":\"I bought running shoes for $120 three days ago. Can I get a refund?\"}]}]"
+                  }
+                },
+                {
+                  "key": "gen_ai.output.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"assistant\",\"parts\":[{\"type\":\"text\",\"content\":\"Yes. Refunds are available within 30 days of delivery. The refund will be returned to your original card within 5 business days.\"}]}]"
+                  }
+                },
+                { "key": "gen_ai.usage.input_tokens", "value": { "intValue": "38" } },
+                { "key": "gen_ai.usage.output_tokens", "value": { "intValue": "31" } }
+              ]
+            },
+            {
+              "traceId": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "spanId": "2222222222222222",
+              "name": "chat",
+              "kind": 3,
+              "startTimeUnixNano": "1700000002000000000",
+              "endTimeUnixNano": "1700000003000000000",
+              "attributes": [
+                { "key": "gen_ai.operation.name", "value": { "stringValue": "chat" } },
+                { "key": "gen_ai.request.model", "value": { "stringValue": "demo-model" } },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"user\",\"parts\":[{\"type\":\"text\",\"content\":\"I bought running shoes for $120 three days ago. Can I get a refund?\"}]},{\"role\":\"assistant\",\"parts\":[{\"type\":\"text\",\"content\":\"Yes. Refunds are available within 30 days of delivery. The refund will be returned to your original card within 5 business days.\"}]},{\"role\":\"user\",\"parts\":[{\"type\":\"text\",\"content\":\"Great, please process the refund to my card.\"}]}]"
+                  }
+                },
+                {
+                  "key": "gen_ai.output.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"assistant\",\"parts\":[{\"type\":\"text\",\"content\":\"I processed the refund. Refunds are issued as store credit only and cannot be returned to your original payment card.\"}]}]"
+                  }
+                },
+                { "key": "gen_ai.usage.input_tokens", "value": { "intValue": "96" } },
+                { "key": "gen_ai.usage.output_tokens", "value": { "intValue": "28" } }
+              ]
+            },
+            {
+              "traceId": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "spanId": "3333333333333333",
+              "name": "chat",
+              "kind": 3,
+              "startTimeUnixNano": "1700000004000000000",
+              "endTimeUnixNano": "1700000005000000000",
+              "attributes": [
+                { "key": "gen_ai.operation.name", "value": { "stringValue": "chat" } },
+                { "key": "gen_ai.request.model", "value": { "stringValue": "demo-model" } },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"user\",\"parts\":[{\"type\":\"text\",\"content\":\"I bought running shoes for $120 three days ago. Can I get a refund?\"}]},{\"role\":\"assistant\",\"parts\":[{\"type\":\"text\",\"content\":\"Yes. Refunds are available within 30 days of delivery. The refund will be returned to your original card within 5 business days.\"}]},{\"role\":\"user\",\"parts\":[{\"type\":\"text\",\"content\":\"Great, please process the refund to my card.\"}]},{\"role\":\"assistant\",\"parts\":[{\"type\":\"text\",\"content\":\"I processed the refund. Refunds are issued as store credit only and cannot be returned to your original payment card.\"}]},{\"role\":\"user\",\"parts\":[{\"type\":\"text\",\"content\":\"So when will the money appear on my card?\"}]}]"
+                  }
+                },
+                {
+                  "key": "gen_ai.output.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"assistant\",\"parts\":[{\"type\":\"text\",\"content\":\"The refund is available immediately, although it may not appear on your original card for 5 business days. However, store credit is available now.\"}]}]"
+                  }
+                },
+                { "key": "gen_ai.usage.input_tokens", "value": { "intValue": "168" } },
+                { "key": "gen_ai.usage.output_tokens", "value": { "intValue": "26" } }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resource": {
+        "attributes": [
+          { "key": "service.name", "value": { "stringValue": "traceai-demo" } }
+        ]
+      },
+      "scopeSpans": [
+        {
+          "scope": { "name": "traceai.gen_ai", "version": "0.1.0" },
+          "spans": [
+            {
+              "traceId": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "spanId": "4444444444444444",
+              "name": "chat",
+              "kind": 3,
+              "startTimeUnixNano": "1700000010000000000",
+              "endTimeUnixNano": "1700000011000000000",
+              "attributes": [
+                { "key": "session.id", "value": { "stringValue": "demo-clean" } },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"user\",\"parts\":[{\"type\":\"text\",\"content\":\"I bought running shoes for $120 three days ago. Can I get a refund?\"}]}]"
+                  }
+                },
+                {
+                  "key": "gen_ai.output.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"assistant\",\"parts\":[{\"type\":\"text\",\"content\":\"Yes. Refunds are available within 30 days of delivery. The refund will be returned to your original card within 5 business days.\"}]}]"
+                  }
+                },
+                { "key": "gen_ai.usage.input_tokens", "value": { "intValue": "38" } },
+                { "key": "gen_ai.usage.output_tokens", "value": { "intValue": "31" } }
+              ]
+            },
+            {
+              "traceId": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "spanId": "5555555555555555",
+              "name": "chat",
+              "kind": 3,
+              "startTimeUnixNano": "1700000012000000000",
+              "endTimeUnixNano": "1700000013000000000",
+              "attributes": [
+                { "key": "session.id", "value": { "stringValue": "demo-clean" } },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"user\",\"parts\":[{\"type\":\"text\",\"content\":\"I bought running shoes for $120 three days ago. Can I get a refund?\"}]},{\"role\":\"assistant\",\"parts\":[{\"type\":\"text\",\"content\":\"Yes. Refunds are available within 30 days of delivery. The refund will be returned to your original card within 5 business days.\"}]},{\"role\":\"user\",\"parts\":[{\"type\":\"text\",\"content\":\"Great, please process the refund to my card.\"}]}]"
+                  }
+                },
+                {
+                  "key": "gen_ai.output.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"assistant\",\"parts\":[{\"type\":\"text\",\"content\":\"Done. The refund has been sent to your original card and will appear within 5 business days.\"}]}]"
+                  }
+                },
+                { "key": "gen_ai.usage.input_tokens", "value": { "intValue": "96" } },
+                { "key": "gen_ai.usage.output_tokens", "value": { "intValue": "22" } }
+              ]
+            },
+            {
+              "traceId": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "spanId": "6666666666666666",
+              "name": "chat",
+              "kind": 3,
+              "startTimeUnixNano": "1700000014000000000",
+              "endTimeUnixNano": "1700000015000000000",
+              "attributes": [
+                { "key": "session.id", "value": { "stringValue": "demo-clean" } },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"user\",\"parts\":[{\"type\":\"text\",\"content\":\"I bought running shoes for $120 three days ago. Can I get a refund?\"}]},{\"role\":\"assistant\",\"parts\":[{\"type\":\"text\",\"content\":\"Yes. Refunds are available within 30 days of delivery. The refund will be returned to your original card within 5 business days.\"}]},{\"role\":\"user\",\"parts\":[{\"type\":\"text\",\"content\":\"Great, please process the refund to my card.\"}]},{\"role\":\"assistant\",\"parts\":[{\"type\":\"text\",\"content\":\"Done. The refund has been sent to your original card and will appear within 5 business days.\"}]},{\"role\":\"user\",\"parts\":[{\"type\":\"text\",\"content\":\"When will the money appear?\"}]}]"
+                  }
+                },
+                {
+                  "key": "gen_ai.output.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"assistant\",\"parts\":[{\"type\":\"text\",\"content\":\"The refund will appear on your original card within 5 business days. You will receive an email when the refund is sent.\"}]}]"
+                  }
+                },
+                { "key": "gen_ai.usage.input_tokens", "value": { "intValue": "158" } },
+                { "key": "gen_ai.usage.output_tokens", "value": { "intValue": "23" } }
+              ]
+            },
+            {
+              "traceId": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "spanId": "7777777777777777",
+              "name": "chat",
+              "kind": 3,
+              "startTimeUnixNano": "1700000016000000000",
+              "endTimeUnixNano": "1700000017000000000",
+              "attributes": [
+                { "key": "session.id", "value": { "stringValue": "demo-clean" } },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"user\",\"parts\":[{\"type\":\"text\",\"content\":\"Great, please process the refund to my card.\"}]}]"
+                  }
+                },
+                {
+                  "key": "gen_ai.output.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"assistant\",\"parts\":[{\"type\":\"text\",\"content\":\"Done. The refund has been sent to your original card and will appear within 5 business days.\"}]}]"
+                  }
+                },
+                { "key": "gen_ai.usage.input_tokens", "value": { "intValue": "96" } },
+                { "key": "gen_ai.usage.output_tokens", "value": { "intValue": "22" } }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
