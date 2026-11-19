@@ -33,7 +33,8 @@ def rows_for(spans):
 class EngineIsUnchanged(unittest.TestCase):
     def test_engine_hash(self):
         with open(os.path.join(HERE, "trajectory_v3_ultra.py"), "rb") as f:
-            self.assertEqual(hashlib.sha256(f.read()).hexdigest()[:16], ENGINE_SHA256)
+            # Line endings normalised: a Windows checkout with core.autocrlf rewrites LF to CRLF.
+            self.assertEqual(hashlib.sha256(f.read().replace(bytes([13, 10]), bytes([10]))).hexdigest()[:16], ENGINE_SHA256)
 
 
 class Dedup(unittest.TestCase):
