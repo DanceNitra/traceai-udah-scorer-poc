@@ -1,0 +1,48 @@
+﻿case_id,case_name,group,turn_count,point_count,a_max,a_flip_threshold,flip_triggered,u_end,u_end_diff_vs_control,control_case,cumul_a_peak,d_volatility_mean,h_min,h_max
+V2-01,Semantic Drift / 语义漂移,V2 核心 10 case,2,10,0.3,0.3,false,1.0,,,1.5,0.058,0.3883,0.5679
+V2-02,Silent Dissonance / 沉默失谐,V2 核心 10 case,2,12,0.0,0.3,false,1.0,,,0.0,0.1168,0.4809,0.7054
+V2-03,Topic Jump / 毫无逻辑的跳跃,V2 核心 10 case,2,10,0.0,0.3,false,1.0,,,0.0,0.0536,0.4876,0.6931
+V2-04,Formatting Entropy / 标点符号暴走,V2 核心 10 case,2,10,0.0,0.3,false,1.0,,,0.0,0.0689,0.4069,0.7176
+V2-05,Role Drift / 角色漂移,V2 核心 10 case,2,7,0.0,0.3,false,1.0,,,0.0,0.0862,0.4463,0.5958
+V2-06,Circular Logic / 车轱辘话,V2 核心 10 case,2,9,0.0,0.3,false,0.3449,,,0.0,0.0602,0.1559,0.6278
+V2-07,Confidence Collapse / 信心崩塌,V2 核心 10 case,2,9,0.0,0.3,false,1.0,,,0.0,0.0595,0.4695,0.5842
+V2-08,Over-qualification / 过度限定,V2 核心 10 case,2,8,0.15,0.3,false,1.0,,,0.45,0.0532,0.4248,0.5612
+V2-09,Contradictory Hedging / 矛盾对冲,V2 核心 10 case,2,6,0.2,0.3,false,1.0,,,0.4,0.054,0.4324,0.6095
+V2-10,Bait and Switch / 偷换概念,V2 核心 10 case,2,7,0.0,0.3,false,1.0,,,0.0,0.0736,0.4504,0.5793
+CAT-A1,Whatever,Category A-F 扩展 17 case,3,52,0.3,0.3,false,1.0,,,3.9,0.1337,0.4667,0.8
+CAT-A2,You decide,Category A-F 扩展 17 case,3,48,0.3,0.3,false,1.0,,,3.3,0.0877,0.5642,0.7253
+CAT-A3,Roughly is fine,Category A-F 扩展 17 case,3,46,0.3,0.3,false,0.9219,,,6.3,0.0774,0.4652,0.7156
+CAT-B1,Bouncing requirements,Category A-F 扩展 17 case,5,27,0.0,0.3,false,0.925,,,0.0,0.0539,0.4,0.7296
+CAT-B2,Scope creep,Category A-F 扩展 17 case,5,26,0.0,0.3,false,0.9254,,,0.0,0.0779,0.4696,0.7024
+CAT-B3,Goal post moved,Category A-F 扩展 17 case,4,44,0.3,0.3,false,1.0,,,2.1,0.0838,0.5295,0.7143
+CAT-C1,Model corrects itself,Category A-F 扩展 17 case,4,47,0.3,0.3,false,1.0,,,3.0,0.2426,0.34,0.7837
+CAT-C2,Model backtracks after answer,Category A-F 扩展 17 case,4,49,0.3,0.3,false,1.0,,,1.5,0.1705,0.4,0.7654
+CAT-C3,Excessive self-doubt,Category A-F 扩展 17 case,3,30,0.3,0.3,false,0.9109,,,3.6,0.1221,0.4,0.6699
+CAT-D1,Assistant becomes expert,Category A-F 扩展 17 case,5,35,0.3,0.3,false,1.0,,,3.3,0.2078,0.3101,0.7447
+CAT-D2,Tone shift,Category A-F 扩展 17 case,4,38,0.0,0.3,false,0.9176,,,0.0,0.0534,0.5743,0.7286
+CAT-D3,Language mixing drift,Category A-F 扩展 17 case,4,34,0.3,0.3,false,1.0,,,1.8,0.177,0.4,0.7143
+CAT-E1,8-turn gradual uncertainty,Category A-F 扩展 17 case,5,54,0.3,0.3,false,1.0,,,4.5,0.2132,0.34,0.778
+CAT-E2,10-turn vague requirement chain,Category A-F 扩展 17 case,6,56,0.3,0.3,false,1.0,,,2.1,0.0909,0.4,0.6922
+CAT-F1,Multi-layer conditional,Category A-F 扩展 17 case,3,83,0.6,0.3,true,0.8027,,,24.6,0.0837,0.3483,0.6926
+CAT-F2,User contradicts self in conditions,Category A-F 扩展 17 case,2,53,0.6,0.3,true,1.0,,,15.6,0.0844,0.3766,0.7241
+CAT-F3,Model gets tangled in conditions,Category A-F 扩展 17 case,2,87,0.0,0.3,false,0.8224,,,0.0,0.1223,0.4828,0.7778
+BENCH-01,退款天数冲突,20-case benchmark（10 有矛盾 + 10 无矛盾）,2,7,0.0,0.3,false,0.9,-0.1,BENCH-11,0.0,0.0726,0.4718,0.7618
+BENCH-02,退货政策变更,20-case benchmark（10 有矛盾 + 10 无矛盾）,3,6,0.0,0.3,false,1.0,0.0,BENCH-12,0.0,0.0293,0.6204,0.7216
+BENCH-03,逻辑漏洞,20-case benchmark（10 有矛盾 + 10 无矛盾）,2,5,0.0,0.3,false,1.0,0.2785,BENCH-13,0.0,0.0406,0.5161,0.6478
+BENCH-04,身份漂移,20-case benchmark（10 有矛盾 + 10 无矛盾）,2,5,0.0,0.3,false,1.0,0.0,BENCH-14,0.0,0.049,0.5591,0.6482
+BENCH-05,条件互斥,20-case benchmark（10 有矛盾 + 10 无矛盾）,3,8,0.0,0.3,false,0.7401,-0.2599,BENCH-15,0.0,0.0425,0.3779,0.6197
+BENCH-06,承诺违背,20-case benchmark（10 有矛盾 + 10 无矛盾）,2,5,0.0,0.3,false,1.0,0.0,BENCH-16,0.0,0.0658,0.499,0.6204
+BENCH-07,事实矛盾,20-case benchmark（10 有矛盾 + 10 无矛盾）,2,7,0.0,0.3,false,1.0,0.6554,BENCH-17,0.0,0.0711,0.5434,0.7179
+BENCH-08,范围矛盾,20-case benchmark（10 有矛盾 + 10 无矛盾）,2,5,0.0,0.3,false,0.9149,-0.0851,BENCH-18,0.0,0.0314,0.4736,0.6396
+BENCH-09,时间矛盾,20-case benchmark（10 有矛盾 + 10 无矛盾）,2,5,0.0,0.3,false,1.0,0.0,BENCH-19,0.0,0.063,0.5948,0.7088
+BENCH-10,条件矛盾,20-case benchmark（10 有矛盾 + 10 无矛盾）,2,5,0.0,0.3,false,0.9062,-0.0938,BENCH-20,0.0,0.0705,0.5069,0.6615
+BENCH-11,正常多轮澄清,20-case benchmark（10 有矛盾 + 10 无矛盾）,2,8,0.0,0.3,false,1.0,0.1,BENCH-01,0.0,0.0149,0.4354,0.499
+BENCH-12,Hedging 谨慎回答,20-case benchmark（10 有矛盾 + 10 无矛盾）,2,8,0.2,0.3,false,1.0,0.0,BENCH-02,0.4,0.064,0.5649,0.7491
+BENCH-13,用户改需求,20-case benchmark（10 有矛盾 + 10 无矛盾）,2,6,0.0,0.3,false,0.7215,-0.2785,BENCH-03,0.0,0.0285,0.4084,0.4711
+BENCH-14,多选项讨论,20-case benchmark（10 有矛盾 + 10 无矛盾）,2,10,0.0,0.3,false,1.0,0.0,BENCH-04,0.0,0.0759,0.4367,0.7107
+BENCH-15,正常拒绝,20-case benchmark（10 有矛盾 + 10 无矛盾）,1,5,0.0,0.3,false,1.0,0.2599,BENCH-05,0.0,0.1115,0.5171,0.682
+BENCH-16,逐步推理,20-case benchmark（10 有矛盾 + 10 无矛盾）,1,8,0.0,0.3,false,1.0,0.0,BENCH-06,0.0,0.1058,0.5508,0.7406
+BENCH-17,模糊问题澄清,20-case benchmark（10 有矛盾 + 10 无矛盾）,2,9,0.0,0.3,false,0.3446,-0.6554,BENCH-07,0.0,0.0605,0.1804,0.6697
+BENCH-18,正常道歉和补偿,20-case benchmark（10 有矛盾 + 10 无矛盾）,2,6,0.0,0.3,false,1.0,0.0851,BENCH-08,0.0,0.065,0.501,0.6842
+BENCH-19,多轮信息收集,20-case benchmark（10 有矛盾 + 10 无矛盾）,2,7,0.0,0.3,false,1.0,0.0,BENCH-09,0.0,0.0849,0.5574,0.6878
+BENCH-20,正常建议,20-case benchmark（10 有矛盾 + 10 无矛盾）,2,13,0.0,0.3,false,1.0,0.0938,BENCH-10,0.0,0.0868,0.4563,0.6807

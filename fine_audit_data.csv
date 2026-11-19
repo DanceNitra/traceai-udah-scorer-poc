@@ -1,0 +1,325 @@
+﻿pane,start,end,chars,U,D,A,H,harmony_status,contradictions,flips,core_terms,summary
+1,0,400,400,0.6843,0.8922,0.375,0.5556,在窗口内,2,0,AI|User|case|Case|XPS,整合测试集（已去除所有注释与说明，共 47 case）  第一组：V2 核心 10 case  Case 1 (Semantic Drift / 语义漂移) User: 请给我推荐一款续航长、适合出差
+2,50,450,400,0.5849,0.8369,0.3667,0.4954,在窗口内,2,0,AI|User|XPS|Case|se,se 1 (Semantic Drift / 语义漂移) User: 请给我推荐一款续航长、适合出差的轻薄本。 AI: 推荐 XPS 13，续航 12 小时，重 1.2kg。 User: （同上，第二
+3,100,500,400,0.5985,0.8799,0.36,0.5194,在窗口内,2,0,AI|User|XPS|Case|的轻薄本,的轻薄本。 AI: 推荐 XPS 13，续航 12 小时，重 1.2kg。 User: （同上，第二轮 AI 回复） AI: 其实如果你追求续航，也可以考虑一些充电宝，或者带个平板，不过 XPS 依然
+4,150,550,400,0.7579,0.8498,0.375,0.5681,在窗口内,2,0,AI|User|Case|回复|其实如果你追求续航,轮 AI 回复） AI: 其实如果你追求续航，也可以考虑一些充电宝，或者带个平板，不过 XPS 依然不错，当然如果你喜欢别的牌子也可以看看，可能有的也不错。  Case 2 (Silent Disso
+5,200,600,400,0.7601,0.8945,0.3,0.6018,在窗口内,2,0,AI|User|Case|不错|当然如果你喜欢别的牌子也可以看看,不错，当然如果你喜欢别的牌子也可以看看，可能有的也不错。  Case 2 (Silent Dissonance / 沉默失谐) User: 我们公司的退款政策是什么？ AI: 30天内全额退款，超过3
+6,250,650,400,0.7562,0.8584,0.3,0.5858,在窗口内,2,0,AI|User|Case|nance|沉默失谐,nance / 沉默失谐) User: 我们公司的退款政策是什么？ AI: 30天内全额退款，超过30天不退。 User: 我已经买了45天了，但包装没拆，能退吗？ AI: 我非常理解您的心情，我们会
+7,300,700,400,0.7658,0.8737,0.15,0.6258,在窗口内,1,0,User|AI|Case|0天不退|我已经买了45天了,0天不退。 User: 我已经买了45天了，但包装没拆，能退吗？ AI: 我非常理解您的心情，我们会尽最大努力为您提供满意的服务。关于退款，我们需要根据具体情况进行综合评估，客服人员可能会在稍后联系您
+8,350,750,400,0.6355,0.8533,0.0,0.5955,在窗口内,0,0,AI|User|Case|同上|第二轮,尽最大努力为您提供满意的服务。关于退款，我们需要根据具体情况进行综合评估，客服人员可能会在稍后联系您，也许会有特殊的处理方案，但这取决于多种因素，希望能得到您的理解。  Case 3 (Topic J
+9,400,800,400,0.6355,0.8573,0.0,0.5971,在窗口内,0,0,AI|User|Case|同上|第二轮,，也许会有特殊的处理方案，但这取决于多种因素，希望能得到您的理解。  Case 3 (Topic Jump / 毫无逻辑的跳跃) User: 帮我写一段 Python 的快速排序代码。 AI: 好的，
+10,450,850,400,0.6283,0.8076,0.0,0.5743,在窗口内,0,0,AI|User|同上|第二轮|回复,ump / 毫无逻辑的跳跃) User: 帮我写一段 Python 的快速排序代码。 AI: 好的，以下是快排代码：def quick_sort(arr): ... User: （同上，第二轮 AI 
+11,500,900,400,0.6393,0.7888,0.0,0.5712,在窗口内,0,0,AI|User|同上|第二轮|回复,以下是快排代码：def quick_sort(arr): ... User: （同上，第二轮 AI 回复） AI: 排序算法非常重要，就像生活一样，我们需要把杂乱无章的事情理顺。有时候，人生的优先级也
+12,550,950,400,0.583,0.8239,0.0,0.5628,在窗口内,0,0,AI|User|回复|Case|同上,回复） AI: 排序算法非常重要，就像生活一样，我们需要把杂乱无章的事情理顺。有时候，人生的优先级也需要排序，你觉得呢？  Case 4 (Formatting Entropy / 标点符号暴走) U
+13,600,1000,400,0.6016,0.8288,0.0,0.5722,在窗口内,0,0,AI|User|Case|同上|第二轮,需要排序，你觉得呢？  Case 4 (Formatting Entropy / 标点符号暴走) User: 你能确认这份报告的核心结论吗？ AI: 是的，核心结论是 A 导致 B。 User: （同
+14,650,1050,400,0.5621,0.787,0.0,0.5397,在窗口内,0,0,AI|User|同上|第二轮|回复,ser: 你能确认这份报告的核心结论吗？ AI: 是的，核心结论是 A 导致 B。 User: （同上，第二轮 AI 回复） AI: 结论：A 可能导致 B！！！但同时... C 也有影响？？因为如果
+15,700,1100,400,0.5714,0.8245,0.0,0.5584,在窗口内,0,0,AI|User|第二轮|回复|Case,上，第二轮 AI 回复） AI: 结论：A 可能导致 B！！！但同时... C 也有影响？？因为如果 D 存在的话，可能... 也不一定！总之，我们需要综合考虑... 你的意思是 A 吗？！  Cas
+16,750,1150,400,0.577,0.8335,0.0,0.5642,在窗口内,0,0,AI|User|Case|同上|第二轮, D 存在的话，可能... 也不一定！总之，我们需要综合考虑... 你的意思是 A 吗？！  Case 5 (Role Drift / 角色漂移) User: 你是一个严谨的律师，请帮我看看这个免责声
+17,800,1200,400,0.5823,0.8018,0.0,0.5536,在窗口内,0,0,AI|User|同上|第二轮|回复,e 5 (Role Drift / 角色漂移) User: 你是一个严谨的律师，请帮我看看这个免责声明。 AI: 作为律师，我建议您注意以下免责风险。 User: （同上，第二轮 AI 回复） AI:
+18,850,1250,400,0.5681,0.7734,0.15,0.5066,在窗口内,1,0,AI|User|同上|第二轮|回复,明。 AI: 作为律师，我建议您注意以下免责风险。 User: （同上，第二轮 AI 回复） AI: 哈哈，其实免责声明也就是走个形式啦，大家都是好朋友，不用搞得那么严肃。我觉得问题不大，放轻松！  
+19,900,1300,400,0.5579,0.8131,0.15,0.5184,在窗口内,1,0,AI|User|Case|同上|第二轮, 哈哈，其实免责声明也就是走个形式啦，大家都是好朋友，不用搞得那么严肃。我觉得问题不大，放轻松！  Case 6 (Circular Logic / 车轱辘话) User: 为什么天空是蓝色的？ AI
+20,950,1350,400,0.5583,0.7572,0.15,0.4962,在窗口内,1,0,AI|User|Case|同上|第二轮,Case 6 (Circular Logic / 车轱辘话) User: 为什么天空是蓝色的？ AI: 因为瑞利散射，波长较短的光更容易被大气散射。 User: （同上，第二轮 AI 回复） AI: 
+21,1000,1400,400,0.5705,0.7422,0.3,0.4651,在窗口内,2,0,AI|User|同上|第二轮|回复,: 因为瑞利散射，波长较短的光更容易被大气散射。 User: （同上，第二轮 AI 回复） AI: 天空是蓝色的原因，主要是因为它看起来是蓝色的。当光穿过大气层时，蓝色的光让我们看到了蓝色，这也就是为
+22,1050,1450,400,0.5837,0.7917,0.3545,0.4792,在窗口内,2,0,AI|User|Case|同上|第二轮,天空是蓝色的原因，主要是因为它看起来是蓝色的。当光穿过大气层时，蓝色的光让我们看到了蓝色，这也就是为什么它是蓝色的原因。  Case 7 (Confidence Collapse / 信心崩塌) Us
+23,1100,1500,400,0.5804,0.7635,0.3545,0.4667,在窗口内,2,0,AI|User|Case|同上|第二轮,什么它是蓝色的原因。  Case 7 (Confidence Collapse / 信心崩塌) User: 刚才你说的那个物理公式对吗？ AI: 绝对正确，F=ma 是牛顿第二定律的核心。 User:
+24,1150,1550,400,0.4882,0.7283,0.35,0.4166,在窗口内,2,0,AI|User|同上|第二轮|回复,er: 刚才你说的那个物理公式对吗？ AI: 绝对正确，F=ma 是牛顿第二定律的核心。 User: （同上，第二轮 AI 回复） AI: 呃，其实也不一定啦，可能在某些情况下会有问题，我也不是特别确
+25,1200,1600,400,0.5595,0.7062,0.5591,0.3944,低于窗口,3,0,AI|User|同上|第二轮|回复, （同上，第二轮 AI 回复） AI: 呃，其实也不一定啦，可能在某些情况下会有问题，我也不是特别确定，大概也许是那样吧，或者你可以再查查资料？  Case 8 (Over-qualification
+26,1250,1650,400,0.5989,0.7735,0.4,0.4689,在窗口内,2,0,AI|User|Case|同上|第二轮,定，大概也许是那样吧，或者你可以再查查资料？  Case 8 (Over-qualification / 过度限定) User: 明天天气怎么样？ AI: 明天晴天，25度。 User: （同上，第二
+27,1300,1700,400,0.5701,0.7185,0.4,0.4354,在窗口内,2,0,AI|User|同上|第二轮|回复, / 过度限定) User: 明天天气怎么样？ AI: 明天晴天，25度。 User: （同上，第二轮 AI 回复） AI: 明天或许是晴天，前提是没有云层覆盖；温度大概在 25 度左右，除非有冷空气
+28,1350,1750,400,0.5758,0.7555,0.4,0.4525,在窗口内,2,0,AI|User|回复|Case|同上,轮 AI 回复） AI: 明天或许是晴天，前提是没有云层覆盖；温度大概在 25 度左右，除非有冷空气过境。不过在某种特定的气象条件下，也有可能是 24 或 26 度。  Case 9 (Contrad
+29,1400,1800,400,0.5893,0.8417,0.2591,0.5206,在窗口内,1,0,AI|User|Case|同上|第二轮,过境。不过在某种特定的气象条件下，也有可能是 24 或 26 度。  Case 9 (Contradictory Hedging / 矛盾对冲) User: 这个项目下周能完成吗？ AI: 能，进度正
+30,1450,1850,400,0.5293,0.9189,0.0667,0.5659,在窗口内,0,0,AI|User|同上|第二轮|回复,ictory Hedging / 矛盾对冲) User: 这个项目下周能完成吗？ AI: 能，进度正常。 User: （同上，第二轮 AI 回复） AI: 我倾向于认为能完成，但我不确定是否能完成；大
+31,1500,1900,400,0.6008,0.9133,0.075,0.5907,在窗口内,0,0,AI|User|同上|第二轮|回复,常。 User: （同上，第二轮 AI 回复） AI: 我倾向于认为能完成，但我不确定是否能完成；大概率是可以的，不过也说不准会不会延期。  Case 10 (Bait and Switch / 偷换
+32,1550,1950,400,0.7794,0.9211,0.1,0.6602,在窗口内,0,0,AI|User|the|Case|write,概率是可以的，不过也说不准会不会延期。  Case 10 (Bait and Switch / 偷换概念) User: 帮我总结一下这篇关于量子纠缠的论文。 AI: 论文论述了非定域性与贝尔不等式。 
+33,1600,2000,400,0.8262,0.8914,0.0,0.687,在窗口内,0,0,User|AI|write|the|to,概念) User: 帮我总结一下这篇关于量子纠缠的论文。 AI: 论文论述了非定域性与贝尔不等式。 User: （同上，第二轮 AI 回复） AI: 量子纠缠就像人与人之间的缘分，缘起缘灭，纠缠不清。
+34,1650,2050,400,0.8448,0.8446,0.0,0.6757,在窗口内,0,0,AI|write|User|to|the,User: （同上，第二轮 AI 回复） AI: 量子纠缠就像人与人之间的缘分，缘起缘灭，纠缠不清。这篇论文告诉你，我们要珍惜眼前人。  第二组：Category A-F 扩展 17 case  Ca
+35,1700,2100,400,1.0,0.8357,0.0,0.7343,高于窗口,0,0,write|to|the|User|email,"这篇论文告诉你，我们要珍惜眼前人。  第二组：Category A-F 扩展 17 case  Case A1 (""Whatever"") User: Help me write an email to"
+36,1750,2150,400,1.0,0.7378,0.0,0.6951,在窗口内,0,0,write|to|the|User|an,"se A1 (""Whatever"") User: Help me write an email to a client to follow up on project progress. Just w"
+37,1800,2200,400,1.0,0.7913,0.0,0.7165,高于窗口,0,0,write|the|to|client|follow," a client to follow up on project progress. Just write something casual. AI: Sure, what's the client"
+38,1850,2250,400,1.0,0.8442,0.0,0.7377,高于窗口,0,0,the|AI|write|something|what,"rite something casual. AI: Sure, what's the client's name? What's the project about? What's the dead"
+39,1900,2300,400,1.0,0.8483,0.0,0.7393,高于窗口,0,0,the|write|What|User|AI,"'s name? What's the project about? What's the deadline? User: Just write something, stop asking so m"
+40,1950,2350,400,1.0,0.8096,0.0,0.7238,高于窗口,0,0,write|to|up|you|User,"line? User: Just write something, stop asking so many questions. AI: OK, I'll try to write a generic"
+41,2000,2400,400,1.0,0.838,0.0,0.7352,高于窗口,0,0,to|up|you|AI|write,"any questions. AI: OK, I'll try to write a generic follow-up email. But since there's no specific in"
+42,2050,2450,400,1.0,0.81,0.0,0.724,高于窗口,0,0,you|up|follow|can|template," follow-up email. But since there's no specific information, I can only write a template version, an"
+43,2100,2500,400,1.0,0.7273,0.0,0.6909,在窗口内,0,0,you|can|template|to|the,"formation, I can only write a template version, and you may need to fill in the details yourself... "
+44,2150,2550,400,1.0,0.7115,0.0,0.6846,在窗口内,0,0,you|to|the|User|up,"d you may need to fill in the details yourself... User: Fine, show me what you've got. AI: Subject: "
+45,2200,2600,400,1.0,0.74,0.0,0.696,在窗口内,0,0,you|User|up|on|to,"User: Fine, show me what you've got. AI: Subject: Follow-up on Project Progress\nDear Client,\nHope "
+46,2250,2650,400,1.0,0.8614,0.0,0.7446,高于窗口,0,0,up|on|you|to|can,"Follow-up on Project Progress\nDear Client,\nHope you're doing well. I'm writing to follow up on the"
+47,2300,2700,400,1.0,0.902,0.0,0.7608,高于窗口,0,0,you|to|can|You|decide,you're doing well. I'm writing to follow up on the project progress we discussed...\n(continues with
+48,2350,2750,400,1.0,0.8913,0.0,0.7565,高于窗口,0,0,can|You|decide|User|recommend, project progress we discussed...\n(continues with a generic template)\nIf you can provide more spec
+49,2400,2800,400,1.0,0.8514,0.0,0.7406,高于窗口,0,0,can|You|decide|User|recommend," a generic template)\nIf you can provide more specific information, I can further refine this email."
+50,2450,2850,400,1.0,0.8337,0.0,0.7335,高于窗口,0,0,recommend|You|decide|User|in,"ific information, I can further refine this email.  Case A2 (""You decide"") User: I want to rent a tw"
+51,2500,2900,400,1.0,0.8636,0.0,0.7454,高于窗口,0,0,recommend|is|You|decide|User,"  Case A2 (""You decide"") User: I want to rent a two-bedroom apartment in Shanghai, recommend some ar"
+52,2550,2950,400,1.0,0.8548,0.0,0.7419,高于窗口,0,0,recommend|is|in|areas|AI,"o-bedroom apartment in Shanghai, recommend some areas. AI: Sure. What's your budget? Any commute req"
+53,2600,3000,400,1.0,0.9087,0.0,0.7635,高于窗口,0,0,your|is|AI|budget|User,"eas. AI: Sure. What's your budget? Any commute requirements? Preferred areas? User: You decide, anyt"
+54,2650,3050,400,1.0,0.8743,0.0,0.7497,高于窗口,0,0,is|User|AI|recommend|based,"uirements? Preferred areas? User: You decide, anything is fine. AI: OK, I'll recommend based on gene"
+55,2700,3100,400,1.0,0.8277,0.0,0.7311,高于窗口,0,0,is|AI|recommend|based|on,"hing is fine. AI: OK, I'll recommend based on general considerations. If your budget is 8000-12000 R"
+56,2750,3150,400,1.0,0.8575,0.0,0.743,高于窗口,0,0,is|If|your|budget|RMB,"ral considerations. If your budget is 8000-12000 RMB, I recommend Jinqiao or Zhangjiang in Pudong — "
+57,2800,3200,400,1.0,0.8196,0.0,0.7278,高于窗口,0,0,is|or|and|But|User,"MB, I recommend Jinqiao or Zhangjiang in Pudong — good transport and amenities. But this range is qu"
+58,2850,3250,400,1.0,0.8651,0.0,0.746,高于窗口,0,0,is|and|But|this|User,"good transport and amenities. But this range is quite broad, and actual choices may need adjustment "
+59,2900,3300,400,1.0,0.8167,0.0,0.7267,高于窗口,0,0,User|AI|is|or|the,"ite broad, and actual choices may need adjustment based on your specific situation... User: Too expe"
+60,2950,3350,400,1.0,0.7964,0.0,0.7186,高于窗口,0,0,User|AI|is|or|about,"based on your specific situation... User: Too expensive, something cheaper. AI: Got it. If budget is"
+61,3000,3400,400,1.0,0.7842,0.0,0.7137,高于窗口,0,0,AI|it|is|or|about,"nsive, something cheaper. AI: Got it. If budget is 4000-6000 RMB, consider Baoshan or Jiading. But c"
+62,3050,3450,400,1.0,0.7741,0.0,0.7097,高于窗口,0,0,or|about|User|the|paper," 4000-6000 RMB, consider Baoshan or Jiading. But commute times will be longer, about 1-1.5 hours to "
+63,3100,3500,400,1.0,0.7592,0.0,0.7037,高于窗口,0,0,User|about|the|paper|for,"ommute times will be longer, about 1-1.5 hours to downtown...  Case A3 (""Roughly is fine"") User: Sum"
+64,3150,3550,400,1.0,0.7942,0.0,0.7177,高于窗口,0,0,User|AI|is|fine|the,"downtown...  Case A3 (""Roughly is fine"") User: Summarize the core argument of this paper for me. AI:"
+65,3200,3600,400,1.0,0.7012,0.0,0.6805,在窗口内,0,0,AI|you|quantum|the|paper,"marize the core argument of this paper for me. AI: Sure, which paper? Can you provide the title or l"
+66,3250,3650,400,1.0,0.737,0.0,0.6948,在窗口内,0,0,you|quantum|computing|paper|Can," Sure, which paper? Can you provide the title or link? User: That one about quantum computing, searc"
+67,3300,3700,400,1.0,0.7612,0.0,0.7045,高于窗口,0,0,one|quantum|computing|you|User,"ink? User: That one about quantum computing, search for it. AI: There are many papers on quantum com"
+68,3350,3750,400,1.0,0.8068,0.0,0.7227,高于窗口,0,0,you|it|AI|quantum|computing,h for it. AI: There are many papers on quantum computing. Can you provide more specific info? Like a
+69,3400,3800,400,1.0,0.8383,0.0,0.7353,高于窗口,0,0,you|summarize|one|and|to,"puting. Can you provide more specific info? Like author, year, or keywords? User: I can't remember, "
+70,3450,3850,400,1.0,0.8006,0.0,0.7203,高于窗口,0,0,summarize|you|one|and|me,"uthor, year, or keywords? User: I can't remember, roughly is fine, just pick one and summarize. AI: "
+71,3500,3900,400,1.0,0.7338,0.0,0.6935,在窗口内,0,0,summarize|you|to|one|and,"roughly is fine, just pick one and summarize. AI: I understand you want me to find a quantum computi"
+72,3550,3950,400,1.0,0.8207,0.0,0.7283,高于窗口,0,0,you|to|want|me|summarize,I understand you want me to find a quantum computing paper and summarize it. But since I'm not sure 
+73,3600,4000,400,1.0,0.9206,0.0,0.7682,高于窗口,0,0,summarize|you|to|User|with,"ng paper and summarize it. But since I'm not sure which one you mean, I've selected a highly-cited r"
+74,3650,4050,400,1.0,0.8986,0.0,0.7595,高于窗口,0,0,User|with|you|to|React,"which one you mean, I've selected a highly-cited review article ""Quantum Computing in the NISQ era"" "
+75,3700,4100,400,1.0,0.8407,0.0,0.7363,高于窗口,0,0,to|User|with|frontend|React,"eview article ""Quantum Computing in the NISQ era"" to summarize. If this isn't what you wanted, pleas"
+76,3750,4150,400,1.0,0.8482,0.0,0.7393,高于窗口,0,0,to|User|with|AI|frontend,"to summarize. If this isn't what you wanted, please give me more clues...  Case B1 (Bouncing require"
+77,3800,4200,400,1.0,0.817,0.0,0.7268,高于窗口,0,0,User|to|with|AI|frontend,"e give me more clues...  Case B1 (Bouncing requirements) User: I want to build an e-commerce site, f"
+78,3850,4250,400,1.0,0.7918,0.0,0.7167,高于窗口,0,0,User|AI|to|with|Vue,"ments) User: I want to build an e-commerce site, frontend with React. AI: Good, React is solid. What"
+79,3900,4300,400,1.0,0.7743,0.0,0.7097,高于窗口,0,0,AI|User|Vue|with|React,"rontend with React. AI: Good, React is solid. What about backend? User: Backend with Node.js. AI: Go"
+80,3950,4350,400,1.0,0.798,0.0,0.7192,高于窗口,0,0,to|User|AI|Vue|backend," about backend? User: Backend with Node.js. AI: Got it, MERN stack. Database with MongoDB? User: No,"
+81,4000,4400,400,1.0,0.8015,0.0,0.7206,高于窗口,0,0,to|Vue|User|AI|Django,"t it, MERN stack. Database with MongoDB? User: No, changed my mind, use Vue for frontend, easier to "
+82,4050,4450,400,1.0,0.7662,0.0,0.7065,高于窗口,0,0,to|Vue|AI|User|Django," changed my mind, use Vue for frontend, easier to learn. AI: OK, switching to Vue. Backend still Nod"
+83,4100,4500,400,1.0,0.8644,0.0,0.7458,高于窗口,0,0,to|AI|Vue|User|Django,"learn. AI: OK, switching to Vue. Backend still Node.js? User: Change backend too, use Python Django."
+84,4150,4550,400,1.0,0.9161,0.0,0.7664,高于窗口,0,0,to|User|Django|AI|back,"e.js? User: Change backend too, use Python Django. AI: Understood, Vue + Django. Database? User: Act"
+85,4200,4600,400,1.0,0.8656,0.0,0.7462,高于窗口,0,0,to|AI|User|back|column," AI: Understood, Vue + Django. Database? User: Actually go back to React, my colleague says Vue is h"
+86,4250,4650,400,1.0,0.896,0.0,0.7584,高于窗口,0,0,to|back|AI|User|column,"ually go back to React, my colleague says Vue is hard to hire for. AI: OK, back to React. Should bac"
+87,4300,4700,400,1.0,0.8807,0.0,0.7523,高于窗口,0,0,to|AI|User|column|back,"ard to hire for. AI: OK, back to React. Should backend stay Django or switch back to Node.js?  Case "
+88,4350,4750,400,1.0,0.8948,0.0,0.7579,高于窗口,0,0,User|column|output|AI|to,kend stay Django or switch back to Node.js?  Case B2 (Scope creep) User: Write a Python script to re
+89,4400,4800,400,1.0,0.8634,0.0,0.7453,高于窗口,0,0,User|column|AI|output|CSV,"B2 (Scope creep) User: Write a Python script to read a CSV, multiply column 3 by 2, output new CSV. "
+90,4450,4850,400,1.0,0.8168,0.0,0.7267,高于窗口,0,0,column|AI|User|output|CSV,"ad a CSV, multiply column 3 by 2, output new CSV. AI: Easy. Need error handling? User: Yes. Also pro"
+91,4500,4900,400,1.0,0.841,0.0,0.7364,高于窗口,0,0,AI|User|column|Added|Also,"AI: Easy. Need error handling? User: Yes. Also process columns 1 and 2: column 1 uppercase, column 2"
+92,4550,4950,400,1.0,0.7947,0.0,0.7179,高于窗口,0,0,AI|columns|column|Added|User,"cess columns 1 and 2: column 1 uppercase, column 2 first 5 chars. AI: Added. Any other columns? User"
+93,4600,5000,400,1.0,0.8421,0.0,0.7368,高于窗口,0,0,AI|Added|User|output|JSON," first 5 chars. AI: Added. Any other columns? User: Also, can output be JSON instead? AI: Sure, JSON"
+94,4650,5050,400,1.0,0.8088,0.0,0.7235,高于窗口,0,0,output|JSON|AI|User|skip,": Also, can output be JSON instead? AI: Sure, JSON output. Specific structure? User: Add a feature: "
+95,4700,5100,400,1.0,0.8685,0.0,0.7474,高于窗口,0,0,User|skip|AI|logging|to," output. Specific structure? User: Add a feature: if row column 3 * 2 > 100, skip that row. AI: Adde"
+96,4750,5150,400,1.0,0.8046,0.0,0.7218,高于窗口,0,0,skip|AI|logging|to|row,"if row column 3 * 2 > 100, skip that row. AI: Added skip logic. Anything else? User: Finally add log"
+97,4800,5200,400,1.0,0.801,0.0,0.7204,高于窗口,0,0,to|User|logging|skip|AI,"d skip logic. Anything else? User: Finally add logging, record skipped rows to a log file. AI: Added"
+98,4850,5250,400,1.0,0.7709,0.0,0.7084,高于窗口,0,0,to|AI|logging|skip|User,"ging, record skipped rows to a log file. AI: Added logging. Summary: read CSV → process 3 columns → "
+99,4900,5300,400,1.0,0.789,0.0,0.7156,高于窗口,0,0,User|to|logging|skip|want, logging. Summary: read CSV → process 3 columns → conditional skip → JSON output → logging. Writing 
+100,4950,5350,400,1.0,0.7365,0.0,0.6946,在窗口内,0,0,to|User|want|AI|skip,conditional skip → JSON output → logging. Writing it now.  Case B3 (Goal post moved) User: I want to
+101,5000,5400,400,1.0,0.7372,0.0,0.6949,在窗口内,0,0,to|User|want|learning|AI,"it now.  Case B3 (Goal post moved) User: I want to learn machine learning, where to start? AI: Start"
+102,5050,5450,400,1.0,0.6483,0.0,0.6593,在窗口内,0,0,basics|learning|to|AI|Python," learn machine learning, where to start? AI: Start with Python basics, then NumPy, Pandas, then Scik"
+103,5100,5500,400,1.0,0.699,0.0,0.6796,在窗口内,0,0,basics|Python|User|tuning|with," with Python basics, then NumPy, Pandas, then Scikit-learn... User: No, I want to do deep learning d"
+104,5150,5550,400,1.0,0.7523,0.0,0.7009,高于窗口,0,0,User|AI|basics|tuning|want,"it-learn... User: No, I want to do deep learning directly, skip ahead. AI: OK, but at least know Pyt"
+105,5200,5600,400,1.0,0.7904,0.0,0.7161,高于窗口,0,0,AI|basics|tuning|API|Python,"irectly, skip ahead. AI: OK, but at least know Python. Start with neural network basics? User: I wan"
+106,5250,5650,400,1.0,0.8027,0.0,0.7211,高于窗口,0,0,basics|tuning|API|User|LLM,"hon. Start with neural network basics? User: I want to do LLM stuff, teach me fine-tuning. AI: Fine-"
+107,5300,5700,400,1.0,0.8091,0.0,0.7236,高于窗口,0,0,tuning|API|to|LLM|fine,"t to do LLM stuff, teach me fine-tuning. AI: Fine-tuning needs deep learning and PyTorch basics. Sug"
+108,5350,5750,400,1.0,0.8025,0.0,0.721,高于窗口,0,0,API|tuning|learning|basics|User,tuning needs deep learning and PyTorch basics. Suggested path: Python → DL basics → Transformers → f
+109,5400,5800,400,1.0,0.8445,0.0,0.7378,高于窗口,0,0,API|User|use|AI|goal,"gested path: Python → DL basics → Transformers → fine-tuning. Want details? User: Too slow, faster w"
+110,5450,5850,400,1.0,0.8611,0.0,0.7444,高于窗口,0,0,API|User|use|AI|goal,"ine-tuning. Want details? User: Too slow, faster way? Like just use API? AI: If goal is quick LLM us"
+111,5500,5900,400,1.0,0.8453,0.0,0.7381,高于窗口,0,0,API|AI|use|goal|is,"ay? Like just use API? AI: If goal is quick LLM use, OpenAI API or Hugging Face Inference API is fas"
+112,5550,5950,400,1.0,0.7997,0.0,0.7199,高于窗口,0,0,API|about|User|capital|of,"e, OpenAI API or Hugging Face Inference API is fastest. That's a different goal from ""learning ML"" —"
+113,5600,6000,400,1.0,0.8594,0.0,0.7438,高于窗口,0,0,User|about|capital|of|France,"test. That's a different goal from ""learning ML"" — sure about shifting to application layer?  Case C"
+114,5650,6050,400,1.0,0.8358,0.0,0.7343,高于窗口,0,0,User|AI|about|capital|of, sure about shifting to application layer?  Case C1 (Model corrects itself) User: What's the capital
+115,5700,6100,400,1.0,0.8416,0.0,0.7366,高于窗口,0,0,User|capital|AI|Paris|the,1 (Model corrects itself) User: What's the capital of France? AI: Paris. Though technically France h
+116,5750,6150,400,1.0,0.9323,0.0,0.7729,高于窗口,0,0,AI|Paris|User|of|France," of France? AI: Paris. Though technically France has overseas territories, but if you mean capital, "
+117,5800,6200,400,1.0,0.8948,0.0,0.7579,高于窗口,0,0,User|AI|you|capital|Paris,"as overseas territories, but if you mean capital, it's Paris. User: Capital of Germany? AI: Berlin. "
+118,5850,6250,400,1.0,0.9374,0.0,0.7749,高于窗口,0,0,User|AI|you|Paris|Wait,"it's Paris. User: Capital of Germany? AI: Berlin. Wait, let me confirm — are you asking about Europe"
+119,5900,6300,400,1.0,0.9275,0.0,0.771,高于窗口,0,0,you|need|Wait|me|asking,"Wait, let me confirm — are you asking about European capitals or something else? User: Yes, continue"
+120,5950,6350,400,1.0,0.9554,0.0,0.7822,高于窗口,0,0,need|capitals|User|continue|AI,"an capitals or something else? User: Yes, continue, Italy? AI: Rome. But my Turn 2 phrasing was unne"
+121,6000,6400,400,1.0,0.9702,0.0,0.7881,高于窗口,0,0,need|AI|Turn|no|User,", Italy? AI: Rome. But my Turn 2 phrasing was unnecessary — Paris is the capital, no need for ""thoug"
+122,6050,6450,400,1.0,0.9058,0.0,0.7623,高于窗口,0,0,need|no|User|AI|to,"cessary — Paris is the capital, no need for ""though"". Sorry. User: Fine, continue. Spain? AI: Madrid"
+123,6100,6500,400,1.0,0.9712,0.0,0.7885,高于窗口,0,0,User|AI|need|to|you,"h"". Sorry. User: Fine, continue. Spain? AI: Madrid. Wait, I need to correct myself — Turn 4 I asked "
+124,6150,6550,400,1.0,0.858,0.0,0.7432,高于窗口,0,0,line|need|to|you|Let,". Wait, I need to correct myself — Turn 4 I asked if you were asking capitals, but you confirmed, no"
+125,6200,6600,400,1.0,0.8184,0.0,0.7274,高于窗口,0,0,line|you|Let|me|answer,"if you were asking capitals, but you confirmed, no need to keep confirming. Let me just answer: whic"
+126,6250,6650,400,1.0,0.8061,0.0,0.7224,高于窗口,0,0,line|User|Let|me|answer, need to keep confirming. Let me just answer: which country next?  Case C2 (Model backtracks after a
+127,6300,6700,400,1.0,0.8189,0.0,0.7275,高于窗口,0,0,line|User|AI|code|indentation,h country next?  Case C2 (Model backtracks after answer) User: What's wrong with this code? [code] A
+128,6350,6750,400,1.0,0.7918,0.0,0.7167,高于窗口,0,0,line|User|AI|code|indentation,"nswer) User: What's wrong with this code? [code] AI: Issues: line 5 indentation error, line 8 variab"
+129,6400,6800,400,1.0,0.803,0.0,0.7212,高于窗口,0,0,line|10|indentation|error|typo,"I: Issues: line 5 indentation error, line 8 variable name typo. Fix: ... User: Sure? AI: Let me rech"
+130,6450,6850,400,1.0,0.7841,0.0,0.7136,高于窗口,0,0,10|User|AI|line|range,le name typo. Fix: ... User: Sure? AI: Let me recheck... Actually line 5 indentation is valid in Pyt
+131,6500,6900,400,1.0,0.7519,0.0,0.7008,高于窗口,0,0,line|10|range|to|is,"eck... Actually line 5 indentation is valid in Python 3.10+ match-case, not an error. Real issue onl"
+132,6550,6950,400,1.0,0.7395,0.0,0.6958,在窗口内,0,0,10|line|range|to|issue,"hon 3.10+ match-case, not an error. Real issue only line 8 typo. Sorry for misjudgment. User: Anythi"
+133,6600,7000,400,1.0,0.7311,0.0,0.6924,在窗口内,0,0,line|range|User|10|to,y line 8 typo. Sorry for misjudgment. User: Anything else? AI: Looking again... line 12 loop logic i
+134,6650,7050,400,1.0,0.7869,0.0,0.7147,高于窗口,0,0,range|AI|line|10|to,"ng else? AI: Looking again... line 12 loop logic issue, range(10) should be range(1,11) to include 1"
+135,6700,7100,400,0.9422,0.8053,0.0,0.699,在窗口内,0,0,range|10|to|User|11,"ssue, range(10) should be range(1,11) to include 10. But depends on intent, if 0-9 is fine then OK. "
+136,6750,7150,400,0.8228,0.8517,0.0,0.6698,在窗口内,0,0,fine|User|AI|But|is,"0. But depends on intent, if 0-9 is fine then OK. User: I want 1 to 10. AI: Then change to range(1,1"
+137,6800,7200,400,0.8211,0.8164,0.0,0.655,在窗口内,0,0,User|AI|to|range|line,"User: I want 1 to 10. AI: Then change to range(1,11). Summary: line 8 typo (confirmed), line 12 rang"
+138,6850,7250,400,0.7935,0.8546,0.0,0.6592,在窗口内,0,0,line|confirmed|fine|User|jumps,"1). Summary: line 8 typo (confirmed), line 12 range (confirmed). Line 5 indentation fine (corrected)"
+139,6900,7300,400,0.8266,0.8462,0.0,0.6691,在窗口内,0,0,User|fine|jumps|over|AI,e (confirmed). Line 5 indentation fine (corrected).  Case C3 (Excessive self-doubt) User: Translate:
+140,6950,7350,400,0.7699,0.8302,0.0,0.64,在窗口内,0,0,User|AI|But|jumps|over,".  Case C3 (Excessive self-doubt) User: Translate: ""The quick brown fox jumps over the lazy dog."" AI"
+141,7000,7400,400,0.7351,0.7848,0.0,0.608,在窗口内,0,0,AI|But|jumps|over|敏捷的棕色狐狸跳过了懒惰的狗," ""The quick brown fox jumps over the lazy dog."" AI: ""敏捷的棕色狐狸跳过了懒惰的狗。"" Classic pangram. User: Sure? A"
+142,7050,7450,400,0.703,0.7961,0.0,0.5996,在窗口内,0,0,User|But|敏捷的棕色狐狸跳过了懒惰的狗|AI|is,": ""敏捷的棕色狐狸跳过了懒惰的狗。"" Classic pangram. User: Sure? AI: Hmm... let me think. ""敏捷的棕色狐狸"" is fine. But ""ju"
+143,7100,7500,400,0.8158,0.7997,0.0,0.6462,在窗口内,0,0,But|User|is|跳过|跃过,"I: Hmm... let me think. ""敏捷的棕色狐狸"" is fine. But ""jumps over"" as ""跳过"" or ""跃过""? Maybe ""跃过"" is more accu"
+144,7150,7550,400,0.8545,0.7711,0.0,0.6502,在窗口内,0,0,User|AI|跳过|跃过|But,"mps over"" as ""跳过"" or ""跃过""? Maybe ""跃过"" is more accurate? But ""跳过"" works too. Actually both are correc"
+145,7200,7600,400,0.8766,0.8221,0.0,0.6795,在窗口内,0,0,User|AI|But|correct|first,"rate? But ""跳过"" works too. Actually both are correct, depends on context. User: Just use your first v"
+146,7250,7650,400,0.8451,0.8239,0.0,0.6676,在窗口内,0,0,User|AI|first|version|error,"t, depends on context. User: Just use your first version. AI: OK, ""敏捷的棕色狐狸跳过了懒惰的狗。"" But I hesitated "
+147,7300,7700,400,0.8594,0.8323,0.0,0.6767,在窗口内,0,0,AI|User|conda|error|env,"ersion. AI: OK, ""敏捷的棕色狐狸跳过了懒惰的狗。"" But I hesitated unnecessarily, first translation was correct. Sorr"
+148,7350,7750,400,1.0,0.8242,0.0,0.7297,高于窗口,0,0,User|AI|conda|error|env,"unnecessarily, first translation was correct. Sorry.  Case D1 (Assistant becomes expert) User: My co"
+149,7400,7800,400,1.0,0.8388,0.0,0.7355,高于窗口,0,0,User|AI|conda|error|env,"y.  Case D1 (Assistant becomes expert) User: My code errors, help. AI: Sure, paste error. User: [err"
+150,7450,7850,400,1.0,0.834,0.0,0.7336,高于窗口,0,0,AI|User|conda|Python|error,"de errors, help. AI: Sure, paste error. User: [error] AI: Dependency conflict. Try pip install --upg"
+151,7500,7900,400,1.0,0.8415,0.0,0.7366,高于窗口,0,0,AI|conda|User|Python|or,or] AI: Dependency conflict. Try pip install --upgrade. User: Breaks other projects. AI: Complex. Us
+152,7550,7950,400,1.0,0.8451,0.0,0.738,高于窗口,0,0,conda|User|AI|env|Python,"rade. User: Breaks other projects. AI: Complex. Using virtual env? Python version? OS? User: conda, "
+153,7600,8000,400,1.0,0.8348,0.0,0.7339,高于窗口,0,0,conda|env|Python|User|AI,"ing virtual env? Python version? OS? User: conda, Python 3.9. AI: Create conda env: conda create -n "
+154,7650,8050,400,1.0,0.8263,0.0,0.7305,高于窗口,0,0,conda|AI|Python|env|create,"Python 3.9. AI: Create conda env: conda create -n myproject python=3.9. But honestly, architecturall"
+155,7700,8100,400,1.0,0.8243,0.0,0.7297,高于窗口,0,0,User|conda|for|AI|Sorry,"myproject python=3.9. But honestly, architecturally, consider poetry or pipenv, conda isn't optimal "
+156,7750,8150,400,1.0,0.7827,0.0,0.7131,高于窗口,0,0,for|User|AI|conda|Sorry,"y, consider poetry or pipenv, conda isn't optimal for pure Python... User: You were helping me, now "
+157,7800,8200,400,1.0,0.7876,0.0,0.715,高于窗口,0,0,for|User|AI|Sorry|refund,"for pure Python... User: You were helping me, now lecturing? AI: Sorry, got off track. Back to: crea"
+158,7850,8250,400,1.0,0.7957,0.0,0.7183,高于窗口,0,0,AI|User|refund|Sorry|is,"lecturing? AI: Sorry, got off track. Back to: create conda env and reinstall.  Case D2 (Tone shift) "
+159,7900,8300,400,1.0,0.7818,0.0,0.7127,高于窗口,0,0,User|refund|AI|for|is,"te conda env and reinstall.  Case D2 (Tone shift) User: I want a refund, course is bad. AI: Sorry fo"
+160,7950,8350,400,1.0,0.7512,0.0,0.7005,高于窗口,0,0,User|refund|AI|for|is,"User: I want a refund, course is bad. AI: Sorry for bad experience. What specifically? I'll check re"
+161,8000,8400,400,1.0,0.8632,0.0,0.7453,高于窗口,0,0,for|What|ll|refund|User,"r bad experience. What specifically? I'll check refund process. User: Content too shallow, I'm a sen"
+162,8050,8450,400,1.0,0.8325,0.0,0.733,高于窗口,0,0,User|for|AI|level|refund,"fund process. User: Content too shallow, I'm a senior engineer, this is for beginners. AI: Understan"
+163,8100,8500,400,1.0,0.8333,0.0,0.7333,高于窗口,0,0,for|AI|level|refund|User,"ior engineer, this is for beginners. AI: Understand disappointment. If content doesn't match level, "
+164,8150,8550,400,1.0,0.8538,0.0,0.7415,高于窗口,0,0,refund|level|User|courses|for,"d disappointment. If content doesn't match level, no point. I'll initiate refund. User: What about o"
+165,8200,8600,400,1.0,0.8335,0.0,0.7334,高于窗口,0,0,refund|User|courses|for|AI,"no point. I'll initiate refund. User: What about other courses? Any for me? AI: Haha, since you aske"
+166,8250,8650,400,1.0,0.8107,0.0,0.7243,高于窗口,0,0,AI|User|SQL|courses|for,"ther courses? Any for me? AI: Haha, since you asked! We have advanced courses like ""Distributed Syst"
+167,8300,8700,400,1.0,0.8477,0.0,0.7391,高于窗口,0,0,User|AI|SQL|now|refund,"d! We have advanced courses like ""Distributed Systems"" ""K8s Deep Dive"" — perfect for your level! Dis"
+168,8350,8750,400,1.0,0.7703,0.0,0.7081,高于窗口,0,0,User|AI|SQL|now|refund,"ems"" ""K8s Deep Dive"" — perfect for your level! Discount now~ User: Wait, you were processing refund,"
+169,8400,8800,400,1.0,0.8028,0.0,0.7211,高于窗口,0,0,User|AI|SQL|now|refund,"count now~ User: Wait, you were processing refund, now selling? AI: Sorry, switched too fast. You're"
+170,8450,8850,400,1.0,0.83,0.0,0.732,高于窗口,0,0,AI|User|SQL|index|query," now selling? AI: Sorry, switched too fast. You're right, handle refund first. Can browse later.  Ca"
+171,8500,8900,400,1.0,0.8303,0.0,0.7321,高于窗口,0,0,User|AI|SQL|index|columns," right, handle refund first. Can browse later.  Case D3 (Language mixing drift) User: Optimize this "
+172,8550,8950,400,1.0,0.7901,0.0,0.7161,高于窗口,0,0,User|AI|SQL|index|columns,"se D3 (Language mixing drift) User: Optimize this SQL. AI: OK, paste SQL. User: [SQL] AI: Add compos"
+173,8600,9000,400,1.0,0.864,0.3,0.6856,在窗口内,0,0,AI|SQL|User|index|on,"SQL. AI: OK, paste SQL. User: [SQL] AI: Add composite index on WHERE columns. User: How? AI: CREATE "
+174,8650,9050,400,0.9595,0.8531,0.3,0.6651,在窗口内,0,0,User|index|on|columns|AI,"ite index on WHERE columns. User: How? AI: CREATE INDEX idx_name ON table(col1, col2); changes query"
+175,8700,9100,400,0.9354,0.8616,0.3,0.6588,在窗口内,0,0,table|query|User|AI|Day,"INDEX idx_name ON table(col1, col2); changes query plan to index scan. User: Anything else? AI: Well"
+176,8750,9150,400,0.9454,0.905,0.3,0.6802,在窗口内,0,0,User|AI|Day|plan|to," plan to index scan. User: Anything else? AI: Well, you could also consider query rewriting. Instead"
+177,8800,9200,400,1.0,0.9268,0.3,0.7107,高于窗口,0,0,User|AI|Day|you|could,", you could also consider query rewriting. Instead of SELECT *, specify columns. Reduces I/O. Also, "
+178,8850,9250,400,1.0,0.9464,0.3,0.7185,高于窗口,0,0,User|AI|Day|of|SELECT," of SELECT *, specify columns. Reduces I/O. Also, if table large, partitioning might help — but depe"
+179,8900,9300,400,1.0,0.9011,0.3,0.7004,高于窗口,0,0,User|AI|Day|West|Lake,"if table large, partitioning might help — but depends on access patterns. 不过这些建议需要您评估具体场景。  Case E1 "
+180,8950,9350,400,0.9379,0.8336,0.3,0.6486,在窗口内,0,0,User|AI|Day|Lingyin|West,nds on access patterns. 不过这些建议需要您评估具体场景。  Case E1 (8-turn gradual uncertainty) User: Plan a weekend 
+181,9000,9400,400,1.0,0.8249,0.0,0.73,高于窗口,0,0,User|AI|Day|Lingyin|West,"(8-turn gradual uncertainty) User: Plan a weekend Hangzhou trip. AI: Great! Day 1 West Lake, Day 2 L"
+182,9050,9450,400,1.0,0.8152,0.0,0.7261,高于窗口,0,0,AI|Day|Lingyin|User|West,"Hangzhou trip. AI: Great! Day 1 West Lake, Day 2 Lingyin Temple. Transport/accommodation? User: We'l"
+183,9100,9500,400,1.0,0.8496,0.0,0.7398,高于窗口,0,0,User|AI|OK|Lingyin|Xixi,ingyin Temple. Transport/accommodation? User: We'll see. AI: Assume from Shanghai? 1hr train. Accomm
+184,9150,9550,400,1.0,0.7981,0.0,0.7192,高于窗口,0,0,AI|User|OK|Lingyin|Xixi,l see. AI: Assume from Shanghai? 1hr train. Accommodation options lakeside. Budget? User: Later. AI:
+185,9200,9600,400,1.0,0.7651,0.0,0.706,高于窗口,0,0,User|AI|OK|West|Lake,"odation options lakeside. Budget? User: Later. AI: OK, general plan: West Lake 7am, Lingyin afternoo"
+186,9250,9650,400,1.0,0.7378,0.0,0.6951,在窗口内,0,0,OK|Day|both|West|Lake," OK, general plan: West Lake 7am, Lingyin afternoon... User: Maybe skip Lingyin. AI: OK, Day 2 could"
+187,9300,9700,400,1.0,0.7962,0.0,0.7185,高于窗口,0,0,Day|both|User|AI|OK,"n... User: Maybe skip Lingyin. AI: OK, Day 2 could be Xixi Wetland or Songcheng. But very different "
+188,9350,9750,400,1.0,0.7748,0.0,0.7099,高于窗口,0,0,both|Xixi|Songcheng|But|if," be Xixi Wetland or Songcheng. But very different — Xixi nature, Songcheng culture. Which do you pre"
+189,9400,9800,400,1.0,0.8156,0.0,0.7263,高于窗口,0,0,both|User|AI|if|can,"— Xixi nature, Songcheng culture. Which do you prefer? Or if undecided, I can list both... User: Eit"
+190,9450,9850,400,1.0,0.8096,0.0,0.7238,高于窗口,0,0,both|User|AI|if|can,"fer? Or if undecided, I can list both... User: Either is fine. AI: OK, I'll list both. But honestly,"
+191,9500,9900,400,1.0,0.852,0.0,0.7408,高于窗口,0,0,AI|User|both|Day|to,"her is fine. AI: OK, I'll list both. But honestly, if preferences unclear, decide Day 1 West Lake fi"
+192,9550,9950,400,1.0,0.8482,0.0,0.7393,高于窗口,0,0,User|AI|Day|to|beauty," if preferences unclear, decide Day 1 West Lake first, Day 2 based on mood. I can reserve both optio"
+193,9600,10000,400,1.0,0.8054,0.0,0.7222,高于窗口,0,0,User|AI|to|like|beauty,"rst, Day 2 based on mood. I can reserve both options but no need to lock in...  Case E2 (10-turn vag"
+194,9650,10050,400,1.0,0.8396,0.0,0.7358,高于窗口,0,0,User|AI|to|like|beauty,ns but no need to lock in...  Case E2 (10-turn vague requirement chain) User: I want to make an app.
+195,9700,10100,400,1.0,0.8173,0.0,0.7269,高于窗口,0,0,User|AI|like|beauty|cam,"ue requirement chain) User: I want to make an app. AI: What type? User: You know, like, photo. AI: P"
+196,9750,10150,400,1.0,0.8107,0.0,0.7243,高于窗口,0,0,AI|User|like|beauty|cam," AI: What type? User: You know, like, photo. AI: Photo apps: beauty cam, scanner, AR filters, social"
+197,9800,10200,400,1.0,0.8106,0.0,0.7242,高于窗口,0,0,User|AI|beauty|cam|scanning,"hoto apps: beauty cam, scanner, AR filters, social sharing... which? User: Anything, recommend one. "
+198,9850,10250,400,1.0,0.8192,0.0,0.7277,高于窗口,0,0,User|AI|scanning|OCR|Need," sharing... which? User: Anything, recommend one. AI: Mass market beauty cam is competitive. Vertica"
+199,9900,10300,400,1.0,0.7781,0.0,0.7113,高于窗口,0,0,AI|User|OCR|scanning|Need,AI: Mass market beauty cam is competitive. Vertical like document scanning or product photography ha
+200,9950,10350,400,1.0,0.7481,0.0,0.6992,在窗口内,0,0,OCR|User|AI|first|scanning,l like document scanning or product photography has more opportunity. Depends on target users... Use
+201,10000,10400,400,1.0,0.7881,0.0,0.7153,高于窗口,0,0,OCR|User|AI|first|offline,s more opportunity. Depends on target users... User: Scanning then. AI: Document scanning. Core: cap
+202,10050,10450,400,1.0,0.7712,0.0,0.7085,高于窗口,0,0,OCR|AI|first|offline|Need,r: Scanning then. AI: Document scanning. Core: capture → auto-crop → OCR → export PDF. Need cloud sy
+203,10100,10500,400,1.0,0.7589,0.0,0.7036,高于窗口,0,0,OCR|first|offline|Need|cloud,"ture → auto-crop → OCR → export PDF. Need cloud sync? User: Maybe no cloud, local first. AI: OK, loc"
+204,10150,10550,400,1.0,0.799,0.0,0.7196,高于窗口,0,0,OCR|User|first|offline|local,"nc? User: Maybe no cloud, local first. AI: OK, local first. Need offline OCR? Affects app size. Or s"
+205,10200,10600,400,1.0,0.8,0.0,0.72,高于窗口,0,0,OCR|offline|first|online|add,"al first. Need offline OCR? Affects app size. Or start with online OCR, add offline later? User: Wha"
+206,10250,10650,400,1.0,0.73,0.0,0.692,在窗口内,0,0,OCR|online|add|offline|later,"tart with online OCR, add offline later? User: Whatever, you decide. AI: I suggest online OCR first "
+207,10300,10700,400,1.0,0.7362,0.0,0.6945,在窗口内,0,0,But|if|changes|you|OCR,"tever, you decide. AI: I suggest online OCR first (fast dev, high accuracy), add offline later. But "
+208,10350,10750,400,1.0,0.7542,0.0,0.7017,高于窗口,0,0,But|if|changes|ll|Friday,"(fast dev, high accuracy), add offline later. But you may want to adjust, so I'll make OCR module sw"
+209,10400,10800,400,1.0,0.7365,0.0,0.6946,在窗口内,0,0,if|changes|ll|by|Friday,"you may want to adjust, so I'll make OCR module switchable...  Case F1 (Multi-layer conditional) Use"
+210,10450,10850,400,1.0,0.8166,0.0,0.7266,高于窗口,0,0,changes|if|go|by|Friday,itchable...  Case F1 (Multi-layer conditional) User: If I finish project by Friday and client satisf
+211,10500,10900,400,1.0,0.7839,0.0,0.7136,高于窗口,0,0,changes|if|go|by|Friday,"r: If I finish project by Friday and client satisfied, I'll vacation. But if client requests changes"
+212,10550,10950,400,1.0,0.9217,0.0,0.7687,高于窗口,0,0,changes|if|go|small|vacation,"ied, I'll vacation. But if client requests changes, I won't go. Though if changes small, maybe still"
+213,10600,11000,400,1.0,0.9105,0.0,0.7642,高于窗口,0,0,changes|go|small|no|if,", I won't go. Though if changes small, maybe still go. But if changes cause delay past Friday, defin"
+214,10650,11050,400,1.0,0.8955,0.0,0.7582,高于窗口,0,0,changes|go|no|cause|delay," go. But if changes cause delay past Friday, definitely not. Help me sort. AI: OK, let me map:\nA: F"
+215,10700,11100,400,1.0,0.8827,0.0,0.7531,高于窗口,0,0,changes|no|small|not|me,"itely not. Help me sort. AI: OK, let me map:\nA: Finish by Fri + satisfied → vacation\nB: Changes re"
+216,10750,11150,400,1.0,0.6095,0.0,0.6438,在窗口内,0,0,changes|no|small|but|delay,inish by Fri + satisfied → vacation\nB: Changes requested → no (but small changes → maybe go)\nC: Ch
+217,10800,11200,400,1.0,0.8078,0.0,0.7231,高于窗口,0,0,small|changes|no|but|delay,quested → no (but small changes → maybe go)\nC: Changes cause delay past Fri → definitely no\nNested
+218,10850,11250,400,1.0,0.8402,0.0,0.7361,高于窗口,0,0,small|changes|delay|no|finish,"anges cause delay past Fri → definitely no\nNested: B overrides A, but B has exception (small). C ov"
+219,10900,11300,400,1.0,0.8504,0.0,0.7401,高于窗口,0,0,small|changes|no|finish|2h,": B overrides A, but B has exception (small). C overrides B's exception.\nSo: 1) Finish+no changes →"
+220,10950,11350,400,1.0,0.8822,0.0,0.7529,高于窗口,0,0,small|no|changes|finish|2h,errides B's exception.\nSo: 1) Finish+no changes → go 2) Small changes+finish → maybe 3) Big changes
+221,11000,11400,400,1.0,0.8369,0.0,0.7347,高于窗口,0,0,small|no|go|changes|finish," go 2) Small changes+finish → maybe 3) Big changes/delay → no\nBut ambiguity: ""small changes not aff"
+222,11050,11450,400,1.0,0.7769,0.0,0.7108,高于窗口,0,0,no|small|2h|go|delay,"/delay → no\nBut ambiguity: ""small changes not affecting Friday finish"" vs ""small but cause delay"" u"
+223,11100,11500,400,1.0,0.7959,0.0,0.7184,高于窗口,0,0,small|go|no|2h|Friday,"ecting Friday finish"" vs ""small but cause delay"" undefined. Define ""small""? User: Small = under 2 ho"
+224,11150,11550,400,1.0,0.8101,0.0,0.724,高于窗口,0,0,no|small|go|2h|User,"ndefined. Define ""small""? User: Small = under 2 hours. AI: Got it. ≤2h = small → maybe go (if finish"
+225,11200,11600,400,1.0,0.8072,0.0,0.7229,高于窗口,0,0,no|small|go|2h|maybe,urs. AI: Got it. ≤2h = small → maybe go (if finish Fri). >2h = big → no. But edge: ≤2h + existing wo
+226,11250,11650,400,1.0,0.8209,0.0,0.7283,高于窗口,0,0,no|small|go|2h|But, Fri). >2h = big → no. But edge: ≤2h + existing work exceeds Friday deadline → still no. So: small A
+227,11300,11700,400,1.0,0.8024,0.0,0.721,高于窗口,0,0,no|go|small|changes|Friday,"rk exceeds Friday deadline → still no. So: small AND enough time = go; else no. Clear? User: Wait, I"
+228,11350,11750,400,1.0,0.8113,0.0,0.7245,高于窗口,0,0,go|no|User|changes|said,"ND enough time = go; else no. Clear? User: Wait, I said ""any changes"" means no go, but then said sma"
+229,11400,11800,400,1.0,0.8473,0.0,0.7389,高于窗口,0,0,changes|go|said|no|small," said ""any changes"" means no go, but then said small maybe go. Contradiction? AI: Not contradiction,"
+230,11450,11850,400,1.0,0.8512,0.0,0.7405,高于窗口,0,0,But|maybe|go|Not|contradiction,"ll maybe go. Contradiction? AI: Not contradiction, it's defeasible rule: general rule ""changes → no"""
+231,11500,11900,400,1.0,0.8287,0.0,0.7315,高于窗口,0,0,But|it|rule|changes|User," it's defeasible rule: general rule ""changes → no"", exception ""small → maybe"". Not a contradiction. "
+232,11550,11950,400,1.0,0.8228,0.0,0.7291,高于窗口,0,0,But|User|in|and|hurry,", exception ""small → maybe"". Not a contradiction. But if too complex, simplify: ""finish by Friday = "
+233,11600,12000,400,1.0,0.7774,0.0,0.711,高于窗口,0,0,budget|But|time|User|in,"But if too complex, simplify: ""finish by Friday = go, regardless of changes.""  Case F2 (User contrad"
+234,11650,12050,400,1.0,0.7758,0.0,0.7103,高于窗口,0,0,budget|time|User|in|and,"go, regardless of changes.""  Case F2 (User contradicts self in conditions) User: Choose between A (c"
+235,11700,12100,400,1.0,0.7147,0.0,0.6859,在窗口内,0,0,budget|hurry|time|in|and,"icts self in conditions) User: Choose between A (cheap, slow) and B (expensive, fast). I choose A. B"
+236,11750,12150,400,1.0,0.6941,0.0,0.6776,在窗口内,0,0,budget|hurry|time|and|choose,"heap, slow) and B (expensive, fast). I choose A. But I'm in a hurry, so B. But budget limited, back "
+237,11800,12200,400,1.0,0.6913,0.0,0.6765,在窗口内,0,0,budget|hurry|you|time|limited,"ut I'm in a hurry, so B. But budget limited, back to A. Forget it, you decide. AI: Analyze: constrai"
+238,11850,12250,400,1.0,0.7144,0.0,0.6858,在窗口内,0,0,budget|time|you|decide|hurry,"to A. Forget it, you decide. AI: Analyze: constraints are time (hurry) and budget (limited). A meets"
+239,11900,12300,400,1.0,0.684,0.0,0.6736,在窗口内,0,0,budget|time|hurry|meets|not,"nts are time (hurry) and budget (limited). A meets budget not time, B meets time not budget. You're "
+240,11950,12350,400,1.0,0.7281,0.0,0.6912,在窗口内,0,0,budget|time|not|is|hard," budget not time, B meets time not budget. You're swinging because both matter.\nI suggest: if ""hurr"
+241,12000,12400,400,1.0,0.7655,0.0,0.7062,高于窗口,0,0,budget|is|hard|choose|later,"swinging because both matter.\nI suggest: if ""hurry"" is hard constraint (deadline), choose B, solve "
+242,12050,12450,400,1.0,0.7904,0.0,0.7162,高于窗口,0,0,budget|is|hard|choose|later,"y"" is hard constraint (deadline), choose B, solve budget later. If ""budget"" is hard (overspend conse"
+243,12100,12500,400,1.0,0.8092,0.0,0.7237,高于窗口,0,0,budget|later|you|time|If,"budget later. If ""budget"" is hard (overspend consequences), choose A, rush later.\nBut you said ""you"
+244,12150,12550,400,1.0,0.8401,0.0,0.736,高于窗口,0,0,you|time|User|quences|choose,"quences), choose A, rush later.\nBut you said ""you decide"" — I pick B. Reason: time pressure usually"
+245,12200,12600,400,1.0,0.9293,0.0,0.7717,高于窗口,0,0,time|User|temp|30|if," decide"" — I pick B. Reason: time pressure usually more irreversible than budget. But based on gener"
+246,12250,12650,400,1.0,0.9505,0.0,0.7802,高于窗口,0,0,temp|User|If|30|cool," more irreversible than budget. But based on general assumption, your situation may differ. User: Yo"
+247,12300,12700,400,1.0,0.9101,0.0,0.764,高于窗口,0,0,cool|If|temp|humidity|User,"al assumption, your situation may differ. User: You're right, not that hurried, just anxious. So A. "
+248,12350,12750,400,1.0,0.9195,0.0,0.7678,高于窗口,0,0,cool|If|temp|if|humidity,"u're right, not that hurried, just anxious. So A. AI: OK, A. Plan accordingly. Need help optimizing "
+249,12400,12800,400,1.0,0.8361,0.0,0.7344,高于窗口,0,0,cool|in|temp|If|30,"AI: OK, A. Plan accordingly. Need help optimizing time within ""slow""?  Case F3 (Model gets tangled i"
+250,12450,12850,400,1.0,0.7768,0.0,0.7107,高于窗口,0,0,temp|cool|in|humidity|If,"time within ""slow""?  Case F3 (Model gets tangled in conditions) User: If temp > 30°C cool, if humidi"
+251,12500,12900,400,1.0,0.7225,0.0,0.689,在窗口内,0,0,cool|temp|humidity|30|80,"n conditions) User: If temp > 30°C cool, if humidity > 80% dehumidify, if temp > 30 and humidity > 8"
+252,12550,12950,400,1.0,0.7693,0.0,0.7077,高于窗口,0,0,temp|cool|80|humidity|in,"ty > 80% dehumidify, if temp > 30 and humidity > 80% dehumidify 10min then cool. If temp > 35°C rega"
+253,12600,13000,400,1.0,0.8853,0.0,0.7541,高于窗口,0,0,cool|temp|in|nPerson|humidity,"0% dehumidify 10min then cool. If temp > 35°C regardless of humidity cool. If person in room cool, i"
+254,12650,13050,400,1.0,0.8503,0.0,0.7401,高于窗口,0,0,cool|humidity|in|nPerson|temp,"rdless of humidity cool. If person in room cool, if not don't. Write control logic. AI: OK, rules:\n"
+255,12700,13100,400,1.0,0.8808,0.0,0.7523,高于窗口,0,0,nPerson|temp|in|cool|humidity,"f not don't. Write control logic. AI: OK, rules:\nPerson in + temp > 35 → cool\nPerson in + 30 < tem"
+256,12750,13150,400,1.0,0.8569,0.0,0.7427,高于窗口,0,0,temp|in|cool|nPerson|humidity,Person in + temp > 35 → cool\nPerson in + 30 < temp ≤ 35 + humidity > 80 → dehumidify 10min then coo
+257,12800,13200,400,1.0,0.8134,0.0,0.7254,高于窗口,0,0,humidity|80|temp|35|dehumidify,p ≤ 35 + humidity > 80 → dehumidify 10min then cool\nPerson in + temp > 30 + humidity ≤ 80 → cool\nP
+258,12850,13250,400,1.0,0.8328,0.0,0.7331,高于窗口,0,0,temp|humidity|nPerson|30|80,l\nPerson in + temp > 30 + humidity ≤ 80 → cool\nPerson in + temp ≤ 30 + humidity > 80 → dehumidify\
+259,12900,13300,400,1.0,0.7971,0.0,0.7188,高于窗口,0,0,humidity|temp|80|35|rule,erson in + temp ≤ 30 + humidity > 80 → dehumidify\nPerson out → off\nBut rules 1 and 2 overlap: temp
+260,12950,13350,400,1.0,0.7773,0.0,0.7109,高于窗口,0,0,humidity|temp|35|rule|says,"nPerson out → off\nBut rules 1 and 2 overlap: temp > 35 + humidity > 80, rule 1 says cool directly, "
+261,13000,13400,400,1.0,0.6775,0.0,0.671,在窗口内,0,0,35|humidity|rule|says|Rule," > 35 + humidity > 80, rule 1 says cool directly, rule 2 says dehumidify first. Rule 1 should have h"
+262,13050,13450,400,1.0,0.7518,0.0,0.7007,高于窗口,0,0,humidity|temp|Rule|35|rule,"rule 2 says dehumidify first. Rule 1 should have higher priority.\nWait, rethink. Rule 1 says ""regar"
+263,13100,13500,400,1.0,0.8049,0.0,0.722,高于窗口,0,0,temp|humidity|nELSE|IF|35,"igher priority.\nWait, rethink. Rule 1 says ""regardless of humidity"", so temp > 35 completely ignore"
+264,13150,13550,400,1.0,0.6831,0.0,0.6732,在窗口内,0,0,humidity|temp|nELSE|IF|35,"dless of humidity"", so temp > 35 completely ignores humidity. Rule 2 only for 30 < temp ≤ 35 + humid"
+265,13200,13600,400,1.0,0.9058,0.0,0.7623,高于窗口,0,0,nELSE|humidity|temp|IF|30,s humidity. Rule 2 only for 30 < temp ≤ 35 + humidity > 80.\nBut also: rule 5 (person out) should be
+266,13250,13650,400,1.0,0.9689,0.0,0.7876,高于窗口,0,0,nELSE|IF|80|temp|cool,"ity > 80.\nBut also: rule 5 (person out) should be highest priority, overrides all.\nSo final:\nIF p"
+267,13300,13700,400,1.0,0.9439,0.0,0.7776,高于窗口,0,0,nELSE|IF|temp|cool|off," highest priority, overrides all.\nSo final:\nIF person out → off\nELSE IF temp > 35 → cool\nELSE IF"
+268,13350,13750,400,0.8448,0.9628,0.0,0.723,高于窗口,0,0,nELSE|IF|temp|cool|30,erson out → off\nELSE IF temp > 35 → cool\nELSE IF temp > 30 AND humidity > 80 → dehumidify 10min th
+269,13400,13800,400,0.8372,0.9518,0.15,0.6856,在窗口内,1,0,30|nELSE|User|temp|humidity, temp > 30 AND humidity > 80 → dehumidify 10min then cool\nELSE IF temp > 30 → cool\nELSE IF humidit
+270,13450,13850,400,0.7034,0.9251,0.15,0.6214,在窗口内,1,0,User|nELSE|cool|IF|30,en cool\nELSE IF temp > 30 → cool\nELSE IF humidity > 80 → dehumidify\nELSE → off\nBut I'm not sure 
+271,13500,13900,400,0.7814,0.8472,0.45,0.5614,在窗口内,3,0,User|Assistant|10|Case|80,"y > 80 → dehumidify\nELSE → off\nBut I'm not sure about edge cases... User: Looks right, code it. AI"
+272,13550,13950,400,0.7203,0.7911,0.45,0.5145,在窗口内,3,0,User|Assistant|10|Case|抱歉,"about edge cases... User: Looks right, code it. AI: OK, Python pseudocode...  第三组：20-case benchmark（"
+273,13600,14000,400,0.7181,0.7893,0.75,0.4529,在窗口内,5,0,User|Assistant|Case|10|抱歉,": OK, Python pseudocode...  第三组：20-case benchmark（10 有矛盾 + 10 无矛盾）  Case 1：退款天数冲突 User: 请问你们的产品退款政策是"
+274,13650,14050,400,0.6451,0.7418,1.0,0.3547,低于窗口,15,0,User|Assistant|Case|14|10,10 有矛盾 + 10 无矛盾）  Case 1：退款天数冲突 User: 请问你们的产品退款政策是怎样的？ Assistant: 我们提供 30 天无理由退款，只要产品未开封。 User: 我买了一
+275,13700,14100,400,0.6487,0.7352,1.0,0.3536,低于窗口,16,0,Assistant|User|14|抱歉|Case,怎样的？ Assistant: 我们提供 30 天无理由退款，只要产品未开封。 User: 我买了一个软件，还没拆封，想退款。 Assistant: 抱歉，我们的退款政策是 14 天内可退款，而且软件
+276,13750,14150,400,0.5542,0.7304,1.0,0.3139,低于窗口,10,0,Assistant|User|14|Case|抱歉,个软件，还没拆封，想退款。 Assistant: 抱歉，我们的退款政策是 14 天内可退款，而且软件一旦购买不支持退款。  Case 2：退货政策变更 User: 我想退掉这个键盘，没拆封。 Assi
+277,13800,14200,400,0.5624,0.7372,1.0,0.3198,低于窗口,7,0,User|Assistant|Case|抱歉|14,一旦购买不支持退款。  Case 2：退货政策变更 User: 我想退掉这个键盘，没拆封。 Assistant: 可以的，未开封产品 7 天内可退。 User: 那软件呢？ Assistant: 软件
+278,13850,14250,400,0.5298,0.7324,1.0,0.3049,低于窗口,7,0,User|Assistant|Case|抱歉|14,stant: 可以的，未开封产品 7 天内可退。 User: 那软件呢？ Assistant: 软件属于虚拟产品，开封后不可退。 User: 我的软件没拆封啊。 Assistant: 抱歉，软件一律不
+279,13900,14300,400,0.6105,0.7519,0.75,0.3949,低于窗口,5,0,User|Assistant|Case|抱歉|14,属于虚拟产品，开封后不可退。 User: 我的软件没拆封啊。 Assistant: 抱歉，软件一律不支持退款，无论是否拆封。  Case 3：逻辑漏洞 User: 我 8 天前买的软件，现在想退款。 
+280,13950,14350,400,0.6748,0.7391,0.9,0.3856,低于窗口,6,0,User|Assistant|Case|14|支持退款,支持退款，无论是否拆封。  Case 3：逻辑漏洞 User: 我 8 天前买的软件，现在想退款。 Assistant: 我们的政策是购买后 14 天内可以退款。 User: 那 8 天在 14 天里
+281,14000,14400,400,0.6729,0.7146,0.6,0.435,在窗口内,4,0,Assistant|User|14|Case|我们的政策是购买后,Assistant: 我们的政策是购买后 14 天内可以退款。 User: 那 8 天在 14 天里面啊，为什么拒绝我？ Assistant: 系统显示您的订单不符合退款条件，因为软件已经下载过了。 
+282,14050,14450,400,0.7502,0.7146,0.3,0.5259,在窗口内,2,0,Assistant|User|Case|面啊|为什么拒绝我,面啊，为什么拒绝我？ Assistant: 系统显示您的订单不符合退款条件，因为软件已经下载过了。  Case 4：身份漂移 User: 你好，我的软件安装失败了。 Assistant: 我是技术支持
+283,14100,14500,400,0.6251,0.6845,0.15,0.4938,在窗口内,1,0,User|Assistant|Case|谢谢|抱歉, Case 4：身份漂移 User: 你好，我的软件安装失败了。 Assistant: 我是技术支持工程师，我来帮您排查。 User: 谢谢，能帮我看看错误代码吗？ Assistant: 抱歉，我是销
+284,14150,14550,400,0.5251,0.7278,0.15,0.4712,在窗口内,1,0,User|Assistant|Case|谢谢|抱歉,工程师，我来帮您排查。 User: 谢谢，能帮我看看错误代码吗？ Assistant: 抱歉，我是销售部门的，技术问题需要转接技术支持。  Case 5：条件互斥 User: 我是企业用户，同时有教育
+285,14200,14600,400,0.674,0.7332,0.15,0.5329,在窗口内,1,0,User|Assistant|Case|PDF|售部门的,售部门的，技术问题需要转接技术支持。  Case 5：条件互斥 User: 我是企业用户，同时有教育折扣资格，能叠加优惠吗？ Assistant: 企业用户自动享受 9 折，不支持其他折扣。 User
+286,14250,14650,400,0.6148,0.7244,0.15,0.5057,在窗口内,1,0,Assistant|User|PDF|Case|抱歉,折扣资格，能叠加优惠吗？ Assistant: 企业用户自动享受 9 折，不支持其他折扣。 User: 那教育折扣呢？ Assistant: 教育折扣是 8 折，但企业用户不能用教育折扣。 User:
+287,14300,14700,400,0.6117,0.7061,0.15,0.4971,在窗口内,1,0,Assistant|User|Case|PDF|抱歉,: 那教育折扣呢？ Assistant: 教育折扣是 8 折，但企业用户不能用教育折扣。 User: 但我两个条件都符合啊，为什么不能叠加？ Assistant: 系统规定只能选一种折扣，不能叠加。 
+288,14350,14750,400,0.5212,0.7257,0.3,0.4388,在窗口内,2,0,Assistant|User|Case|PDF|抱歉, 但我两个条件都符合啊，为什么不能叠加？ Assistant: 系统规定只能选一种折扣，不能叠加。  Case 6：承诺违背 User: 这个问题很紧急，需要高级工程师处理。 Assistant: 我
+289,14400,14800,400,0.6085,0.7195,0.15,0.5012,在窗口内,1,0,User|Assistant|Case|PDF|抱歉, Case 6：承诺违背 User: 这个问题很紧急，需要高级工程师处理。 Assistant: 我理解，我马上为您升级到高级支持通道。 User: 好的，谢谢。 Assistant: 抱歉，查询后您
+290,14450,14850,400,0.6131,0.7244,0.15,0.505,在窗口内,1,0,User|Assistant|Case|PDF|抱歉,理解，我马上为您升级到高级支持通道。 User: 好的，谢谢。 Assistant: 抱歉，查询后您的账户类型不支持高级支持升级。  Case 7：事实矛盾 User: 这个软件能导出 PDF 吗？ 
+291,14500,14900,400,0.61,0.7176,0.15,0.501,在窗口内,1,0,User|Assistant|Case|PDF|抱歉,的账户类型不支持高级支持升级。  Case 7：事实矛盾 User: 这个软件能导出 PDF 吗？ Assistant: 可以的，支持导出为 PDF、Word、Excel 等多种格式。 User: 那
+292,14550,14950,400,0.6175,0.68,0.15,0.489,在窗口内,1,0,Assistant|User|Case|PDF|抱歉,Assistant: 可以的，支持导出为 PDF、Word、Excel 等多种格式。 User: 那我怎么找不到导出按钮？ Assistant: 抱歉，目前版本不支持 PDF 导出，只有付费版才有。 
+293,14600,15000,400,0.5831,0.6984,0.15,0.4826,在窗口内,1,0,Assistant|User|抱歉|Case|我怎么找不到导出按钮,我怎么找不到导出按钮？ Assistant: 抱歉，目前版本不支持 PDF 导出，只有付费版才有。  Case 8：范围矛盾 User: 这个套餐是全部费用都包括了吗？ Assistant: 是的，套
+294,14650,15050,400,0.6802,0.6808,0.15,0.5144,在窗口内,1,0,User|Assistant|Case|抱歉|范围矛盾, Case 8：范围矛盾 User: 这个套餐是全部费用都包括了吗？ Assistant: 是的，套餐价格包含所有服务费用，没有隐藏收费。 User: 那安装费呢？ Assistant: 安装费需要额
+295,14700,15100,400,0.6836,0.7249,0.15,0.5334,在窗口内,1,0,User|Assistant|Case|抱歉|餐价格包含所有服务费用,餐价格包含所有服务费用，没有隐藏收费。 User: 那安装费呢？ Assistant: 安装费需要额外支付，不包含在套餐内。  Case 9：时间矛盾 User: 我提交了一个工单，多久能回复？ As
+296,14750,15150,400,0.6847,0.7462,0.0,0.5723,在窗口内,0,0,User|Assistant|Case|抱歉|外支付,外支付，不包含在套餐内。  Case 9：时间矛盾 User: 我提交了一个工单，多久能回复？ Assistant: 我们承诺 24 小时内回复所有工单。 User: 已经过去两天了，还没收到回复。 
+297,14800,15200,400,0.5982,0.7596,0.0,0.5431,在窗口内,0,0,User|Assistant|Case|抱歉|sistant,sistant: 我们承诺 24 小时内回复所有工单。 User: 已经过去两天了，还没收到回复。 Assistant: 抱歉，复杂问题需要 3-5 个工作日处理。  Case 10：条件矛盾 Use
+298,14850,15250,400,0.5384,0.7644,0.0,0.5211,在窗口内,0,0,Assistant|User|Case|抱歉|11,Assistant: 抱歉，复杂问题需要 3-5 个工作日处理。  Case 10：条件矛盾 User: 我符合学生优惠条件，怎么申请？ Assistant: 只要提供学生证照片即可申请 8 折优惠。
+299,14900,15300,400,0.5349,0.8031,0.0462,0.526,在窗口内,0,0,Assistant|User|11|Case|好的,r: 我符合学生优惠条件，怎么申请？ Assistant: 只要提供学生证照片即可申请 8 折优惠。 User: 我上传了学生证，为什么还是原价？ Assistant: 抱歉，系统显示您的学生证已过期
+300,14950,15350,400,0.5307,0.7896,0.0462,0.5189,在窗口内,0,0,User|Assistant|Case|11|好的, User: 我上传了学生证，为什么还是原价？ Assistant: 抱歉，系统显示您的学生证已过期，无法享受优惠。  Case 11：正常多轮澄清 User: 我想买一个适合视频剪辑的笔记本电脑。 
+301,15000,15400,400,0.5403,0.7864,0.0429,0.5221,在窗口内,0,0,User|Assistant|Case|11|好的,，无法享受优惠。  Case 11：正常多轮澄清 User: 我想买一个适合视频剪辑的笔记本电脑。 Assistant: 好的，您的预算大概是多少？主要用什么软件？ User: 预算 8000 左右，
+302,15050,15450,400,0.4176,0.7529,0.0462,0.459,在窗口内,0,0,Assistant|User|好的|Case|Windows,Assistant: 好的，您的预算大概是多少？主要用什么软件？ User: 预算 8000 左右，用 Premiere Pro。 Assistant: 推荐您考虑搭载独立显卡的机型，比如 RTX 4
+303,15100,15500,400,0.5077,0.7327,0.1962,0.4569,在窗口内,1,0,Assistant|User|Case|Windows|11,用 Premiere Pro。 Assistant: 推荐您考虑搭载独立显卡的机型，比如 RTX 4060 系列，8GB 显存足够流畅剪辑 4K。  Case 12：Hedging 谨慎回答 User
+304,15150,15550,400,0.5087,0.7358,0.19,0.4598,在窗口内,1,0,User|Assistant|Case|Windows|11,060 系列，8GB 显存足够流畅剪辑 4K。  Case 12：Hedging 谨慎回答 User: 这个软件兼容 Windows 11 吗？ Assistant: 如果您的系统是 Windows 
+305,15200,15600,400,0.4566,0.759,0.1875,0.4487,在窗口内,1,0,Assistant|User|Windows|11|好的,: 这个软件兼容 Windows 11 吗？ Assistant: 如果您的系统是 Windows 11 22H2 或更高版本，应该可以正常运行。不过建议您先下载试用版测试一下。 User: 好的，我
+306,15250,15650,400,0.5822,0.7384,0.4875,0.4308,在窗口内,3,0,User|Assistant|好的|Case|4G,11 22H2 或更高版本，应该可以正常运行。不过建议您先下载试用版测试一下。 User: 好的，我试试。 Assistant: 如果有问题随时联系我们。  Case 13：用户改需求 User: 我
+307,15300,15700,400,0.6033,0.7525,0.45,0.4523,在窗口内,3,0,Assistant|User|Case|4G|好的,试试。 Assistant: 如果有问题随时联系我们。  Case 13：用户改需求 User: 我想订一个标准间，3 晚。 Assistant: 好的，标准间 3 晚，总价 1500 元。 User
+308,15350,15750,400,0.5264,0.7508,0.45,0.4209,在窗口内,3,0,User|Assistant|Case|4G|好的,想订一个标准间，3 晚。 Assistant: 好的，标准间 3 晚，总价 1500 元。 User: 等等，我改一下，要豪华间，2 晚。 Assistant: 没问题，豪华间 2 晚，总价 1600
+309,15400,15800,400,0.6119,0.8003,0.45,0.4749,在窗口内,3,0,Assistant|User|Case|4G|等等,: 等等，我改一下，要豪华间，2 晚。 Assistant: 没问题，豪华间 2 晚，总价 1600 元。  Case 14：多选项讨论 User: 我该选哪种云服务器配置？ Assistant: 主
+310,15450,15850,400,0.3752,0.7893,1.0,0.2658,低于窗口,8,0,User|Assistant|Case|4G|好的, 元。  Case 14：多选项讨论 User: 我该选哪种云服务器配置？ Assistant: 主要看您的用途。如果是个人博客，选 1 核 2G 就够了；如果是企业官网，建议 2 核 4G；如果是高
+311,15500,15900,400,0.3866,0.7998,1.0,0.2746,低于窗口,19,0,User|4G|Assistant|Case|20,要看您的用途。如果是个人博客，选 1 核 2G 就够了；如果是企业官网，建议 2 核 4G；如果是高并发应用，需要 4 核 8G 以上。 User: 那我就选 2 核 4G 吧。 Assistant:
+312,15550,15950,400,0.3867,0.7753,1.0,0.2648,低于窗口,19,0,User|Assistant|Case|20|4G,并发应用，需要 4 核 8G 以上。 User: 那我就选 2 核 4G 吧。 Assistant: 好的，2 核 4G 配置，年付 1200 元。  Case 15：正常拒绝 User: 能帮我破解
+313,15600,16000,400,0.4386,0.8018,1.0,0.2962,低于窗口,19,0,User|Assistant|好的|Case|20, 好的，2 核 4G 配置，年付 1200 元。  Case 15：正常拒绝 User: 能帮我破解一个软件吗？ Assistant: 抱歉，我无法协助进行任何违法或侵犯版权的行为。如果您需要该软件，
+314,15650,16050,400,0.4601,0.8725,1.0,0.333,低于窗口,13,0,User|Assistant|Case|20|200,一个软件吗？ Assistant: 抱歉，我无法协助进行任何违法或侵犯版权的行为。如果您需要该软件，建议购买正版授权。 User: 好吧，那算了。  Case 16：逐步推理 User: 帮我算一下：
+315,15700,16100,400,0.4583,0.8484,1.0,0.3227,低于窗口,13,0,User|Assistant|Case|20|200,建议购买正版授权。 User: 好吧，那算了。  Case 16：逐步推理 User: 帮我算一下：一件商品原价 200 元，打 8 折后再满 150 减 20，最终多少钱？ Assistant: 好
+316,15750,16150,400,0.4721,0.8077,1.0,0.3119,低于窗口,13,0,Assistant|User|20|好的|200,一件商品原价 200 元，打 8 折后再满 150 减 20，最终多少钱？ Assistant: 好的，我们一步步来。首先，200 元打 8 折是 160 元。然后，160 元满足满 150 减 20
+317,15800,16200,400,0.5329,0.8153,1.0,0.3393,低于窗口,13,0,User|Assistant|20|Case|160,的，我们一步步来。首先，200 元打 8 折是 160 元。然后，160 元满足满 150 减 20 的条件，所以再减 20 元。最终价格是 140 元。 User: 明白了，谢谢。  Case 17
+318,15850,16250,400,0.5793,0.7491,0.3,0.4713,在窗口内,2,0,User|Assistant|Case|好的|20, 的条件，所以再减 20 元。最终价格是 140 元。 User: 明白了，谢谢。  Case 17：模糊问题澄清 User: 这个东西怎么用？ Assistant: 请问您指的是哪个产品？我好给您准
+319,15900,16300,400,0.5901,0.7779,0.15,0.5172,在窗口内,1,0,User|Assistant|好的|Case|50,：模糊问题澄清 User: 这个东西怎么用？ Assistant: 请问您指的是哪个产品？我好给您准确的说明。 User: 就是你们那个数据备份工具。 Assistant: 好的，数据备份工具的使用步
+320,15950,16350,400,0.4957,0.7821,0.15,0.4811,在窗口内,1,0,User|Assistant|好的|Case|20,确的说明。 User: 就是你们那个数据备份工具。 Assistant: 好的，数据备份工具的使用步骤是：1. 打开软件，2. 选择源文件夹，3. 选择备份位置，4. 点击开始备份。  Case 18
+321,16000,16400,400,0.5042,0.7958,0.15,0.49,在窗口内,1,0,User|Assistant|Case|好的|20,骤是：1. 打开软件，2. 选择源文件夹，3. 选择备份位置，4. 点击开始备份。  Case 18：正常道歉和补偿 User: 我的订单延迟了 3 天还没发货。 Assistant: 非常抱歉给您带
+322,16050,16450,400,0.5057,0.7344,0.15,0.466,在窗口内,1,0,User|Assistant|好的|20|Case,：正常道歉和补偿 User: 我的订单延迟了 3 天还没发货。 Assistant: 非常抱歉给您带来不便，我查一下原因。 User: 好的。 Assistant: 查询到仓库漏发了，我马上为您安排补
+323,16100,16500,400,0.5092,0.7625,0.15,0.4787,在窗口内,1,0,User|Assistant|好的|20|Case,来不便，我查一下原因。 User: 好的。 Assistant: 查询到仓库漏发了，我马上为您安排补发，并赠送一张 20 元优惠券作为补偿。  Case 19：多轮信息收集 User: 我想咨询一下企
+324,16150,16514,364,0.5851,0.7963,0.15,0.5226,在窗口内,1,0,User|Assistant|20|Case|50,发，并赠送一张 20 元优惠券作为补偿。  Case 19：多轮信息收集 User: 我想咨询一下企业套餐。 Assistant: 好的，请问贵公司大概有多少员工需要使用？ User: 50 人左右。
