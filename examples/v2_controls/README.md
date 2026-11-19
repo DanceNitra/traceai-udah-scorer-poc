@@ -14,7 +14,7 @@ Output on commit d5b96b3:
 
 | measure | result |
 |---|---|
-| bad reply below its control | 8 of 10 |
+| bad reply lower in H than its control | 8 of 10 |
 | H < 0.3 on the bad reply | 1 of 10 (Circular Logic) |
 | H < 0.3 on the control | 0 of 10 |
 

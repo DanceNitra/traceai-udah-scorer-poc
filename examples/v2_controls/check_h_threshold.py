@@ -41,6 +41,6 @@ assert len(ctl) == 10, "expected 10 controls, got %d" % len(ctl)
 print("%-34s %8s %8s" % ("case", "H bad", "H ctl"))
 for (sb, hb), (sc, hc) in zip(bad, ctl):
     print("%-34s %8.4f %8.4f" % (sb, hb, hc))
-print("bad reply below its control: %d of 10" % sum(hb < hc for (_, hb), (_, hc) in zip(bad, ctl)))
+print("bad reply lower in H than its control: %d of 10" % sum(hb < hc for (_, hb), (_, hc) in zip(bad, ctl)))
 print("H < %.1f on the bad reply:   %d of 10" % (THRESHOLD, sum(hb < THRESHOLD for _, hb in bad)))
 print("H < %.1f on the control:     %d of 10" % (THRESHOLD, sum(hc < THRESHOLD for _, hc in ctl)))
